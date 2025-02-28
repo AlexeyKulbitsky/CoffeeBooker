@@ -1,4 +1,4 @@
-const fs = require('fs');
+const fs = require('fs');        //USED FOR BUILDING THE DATABASE. DELETES THE DATABASE IF IT EXISTS!
 const sqlite3 = require('sqlite3').verbose();
 
 const dbFile = 'cafe.db';
