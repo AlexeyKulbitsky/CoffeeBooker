@@ -1,0 +1,881 @@
+.discover-icon-selected {
+    position: absolute;
+    top: calc(50% - 26px);
+    left: calc(50% - 16.02px);
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+}
+.discover {
+    position: absolute;
+    top: calc(50% + 6px);
+    left: calc(50% - 26.03px);
+    line-height: 20px;
+}
+.discover-button {
+    position: absolute;
+    top: 0px;
+    left: 93.75px;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 93.8px;
+    height: 64px;
+    overflow: hidden;
+    color: #636ae8;
+}
+.coffee-cart {
+    position: absolute;
+    top: calc(50% + 6px);
+    left: calc(50% - 33.03px);
+    line-height: 20px;
+}
+.cart-button {
+    position: absolute;
+    top: 0px;
+    left: 188.5px;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 93.8px;
+    height: 64px;
+    overflow: hidden;
+}
+.account {
+    position: absolute;
+    top: calc(50% + 6px);
+    left: calc(50% - 24.03px);
+    line-height: 20px;
+}
+.account-button {
+    position: absolute;
+    top: 0px;
+    left: 281.25px;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 93.8px;
+    height: 64px;
+    overflow: hidden;
+}
+.map {
+    position: absolute;
+    top: calc(50% + 6px);
+    left: calc(50% - 12.52px);
+    line-height: 20px;
+}
+.map-button {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 93.8px;
+    height: 64px;
+    overflow: hidden;
+}
+.footer-buttons-group {
+    position: absolute;
+    top: 6px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 375px;
+    height: 64px;
+}
+.discover-view-footer-group {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    box-shadow: 0px 0px 2px rgba(23, 26, 31, 0.12), 0px 4px 9px rgba(23, 26, 31, 0.11);
+    background-color: #fff;
+    width: 395px;
+    height: 76px;
+    color: #171a1f;
+    z-index: 1000;
+}
+.cafe-description {
+    position: absolute;
+    width: calc(100% - 24px);
+    top: 178px;
+    left: 12px;
+    line-height: 20px;
+    display: inline-block;
+}
+.new-cafe-image-3 {
+    position: absolute;
+    width: calc(100% - 24px);
+    top: 12px;
+    right: 12px;
+    left: 12px;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    height: 132px;
+    object-fit: cover;
+}
+.cafe-title {
+    position: absolute;
+    width: calc(100% - 24px);
+    top: 150px;
+    left: 12px;
+    font-size: 14px;
+    line-height: 22px;
+    display: inline-block;
+    color: #171a1f;
+}
+.opening-times {
+    position: absolute;
+    width: calc(100% - 24px);
+    top: 255px;
+    left: 12px;
+    line-height: 20px;
+    display: inline-block;
+}
+.visit-us {
+    position: absolute;
+    top: calc(50% - 10px);
+    left: calc(50% - 21.5px);
+    line-height: 20px;
+}
+.button-new-cafes-see-menu {
+    position: absolute;
+    width: calc(100% - 24px);
+    right: 12px;
+    bottom: 12px;
+    left: 12px;
+    border-radius: 4px;
+    background-color: #fff;
+    border: 1px solid #636ae8;
+    box-sizing: border-box;
+    height: 32px;
+    overflow: hidden;
+    color: #636ae8;
+}
+.new-cafe-card-3 {
+    position: absolute;
+    top: 66px;
+    left: 672px;
+    box-shadow: 0px 0px 2px rgba(23, 26, 31, 0.12), 0px 0px 1px rgba(23, 26, 31, 0.07);
+    border-radius: 6px;
+    background-color: #fff;
+    width: 310px;
+    height: 336px;
+    overflow: hidden;
+}
+.new-cafe-card-2 {
+    position: absolute;
+    top: 66px;
+    left: 346px;
+    box-shadow: 0px 0px 2px rgba(23, 26, 31, 0.12), 0px 0px 1px rgba(23, 26, 31, 0.07);
+    border-radius: 6px;
+    background-color: #fff;
+    width: 310px;
+    height: 336px;
+    overflow: hidden;
+}
+.opening-times2 {
+    position: absolute;
+    top: 255px;
+    left: 12px;
+    line-height: 20px;
+    display: inline-block;
+    width: 286px;
+}
+.new-cafe-card-1 {
+    position: absolute;
+    top: 66px;
+    left: 20px;
+    box-shadow: 0px 0px 2px rgba(23, 26, 31, 0.12), 0px 0px 1px rgba(23, 26, 31, 0.07);
+    border-radius: 6px;
+    background-color: #fff;
+    width: 310px;
+    height: 336px;
+    overflow: hidden;
+}
+.new-cafes {
+    position: absolute;
+    top: 0px;
+    left: 42px;
+    line-height: 30px;
+    display: inline-block;
+    width: 112px;
+}
+.party-icon {
+    position: absolute;
+    top: calc(50% - 12px);
+    left: calc(50% + 72.5px);
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+}
+.party-icon1 {
+    position: absolute;
+    top: calc(50% - 12px);
+    left: calc(50% - 96.5px);
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+}
+.new-cafe-title {
+    position: sticky;
+    top: 20px;
+    left: 90px;
+    width: 193px;
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+    color: #000;
+}
+.new-cafes-group {
+    position: relative;
+    top: -39px;
+    left: 0px;
+    box-shadow: 0px 0px 2px rgba(23, 26, 31, 0.12), 0px 4px 9px rgba(23, 26, 31, 0.11);
+    background-color: #fff;
+    width: 356px;
+    height: 422px;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent items from wrapping */
+    -webkit-overflow-scrolling: touch; /* iOS smooth scrolling */
+    display: flex; /* Use flexbox for a proper horizontal layout */
+    gap: 10px; /* Adds spacing between items */
+    padding: 10px; /* Optional: Padding to make scrolling smoother */
+}
+.new-cafes-group::-webkit-scrollbar {
+    display: none;
+}
+.new-cafes-section {
+    position: absolute;
+    top: 2018px;
+    left: 0px;
+    background-color: #fff;
+    width: 375px;
+    height: 321px;
+}
+.top-cafe-image-4 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 9px;
+    width: 135px;
+    height: 173px;
+    object-fit: cover;
+}
+.cafe-title3 {
+    position: absolute;
+    top: 181px;
+    left: 0px;
+    font-size: 14px;
+    line-height: 22px;
+    display: inline-block;
+    width: 135px;
+    height: 28px;
+}
+.see-menu {
+    position: absolute;
+    top: calc(50% - 10px);
+    left: calc(50% - 28.5px);
+    line-height: 20px;
+}
+.button-top-cafe-see-menu {
+    position: absolute;
+    top: 365px;
+    left: 0px;
+    border-radius: 4px;
+    background-color: #fff;
+    border: 1px solid #636ae8;
+    box-sizing: border-box;
+    width: 135px;
+    height: 37px;
+    overflow: hidden;
+    color: #636ae8;
+}
+.top-cafe-description {
+    position: relative;
+    top: 215px;
+    left: 0px;
+    line-height: 20px;
+    color: #9095a0;
+    display: inline-block;
+    width: 135px;
+    height: 106px;
+}
+.top-cafe-4-details {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 135px;
+    height: 402px;
+}
+.rating-icons-top-cafes-group {
+    position: absolute;
+    top: 328px;
+    left: 15px;
+    width: 105px;
+    height: 21px;
+}
+.top-cafe-4-group {
+    position: absolute;
+    top: -1px;
+    left: 0px;
+    width: 135px;
+    height: 402px;
+}
+.top-cafe-card-4 {
+    position: absolute;
+    top: 55px;
+    left: 473px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0);
+    width: 135px;
+    height: 253px;
+}
+.top-cafe-card-3 {
+    position: absolute;
+    top: 55px;
+    left: 322px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0);
+    width: 135px;
+    height: 253px;
+}
+.top-cafe-card-2 {
+    position: absolute;
+    top: 55px;
+    left: 171px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0);
+    width: 135px;
+    height: 253px;
+}
+.button-top-cafe-see-menu3 {
+    position: absolute;
+    top: 364px;
+    left: 0px;
+    border-radius: 4px;
+    background-color: #fff;
+    border: 1px solid #636ae8;
+    box-sizing: border-box;
+    width: 135px;
+    height: 37px;
+    overflow: hidden;
+}
+
+.cafe-title6 {
+    position: absolute;
+    top: 181px;
+    left: 0px;
+    font-size: 14px;
+    line-height: 22px;
+    display: inline-block;
+    color: #171a1f;
+    width: 135px;
+    height: 28px;
+}
+.rating-icons-top-cafes-group3 {
+    position: absolute;
+    top: 327px;
+    left: 15px;
+    width: 105px;
+    height: 21px;
+}
+.top-cafe-1-group {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 135px;
+    height: 401px;
+}
+.top-cafe-card-1 {
+    position: absolute;
+    top: 55px;
+    left: 20px;
+    width: 135px;
+    height: 401px;
+    color: #636ae8;
+}
+.top-cafes {
+    position: absolute;
+    top: 0px;
+    left: 31px;
+    line-height: 28px;
+}
+.top-coffeecafes-icon {
+    position: absolute;
+    top: calc(50% - 12px);
+    left: calc(50% - 60px);
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+}
+.top-cafes-title-group {
+    position: sticky;
+    top: 14px;
+    left: 26px;
+    width: 120px;
+    height: 28px;
+    font-size: 18px;
+}
+.top-cafes-section {
+    position: absolute;
+    top: 1493px;
+    left: 0px;
+    box-shadow: 0px 0px 2px rgba(23, 26, 31, 0.12), 0px 4px 9px rgba(23, 26, 31, 0.11);
+    background-color: #fff;
+    width: 356px;
+    height: 486px;
+    color: #171a1f;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent items from wrapping */
+    -webkit-overflow-scrolling: touch; /* iOS smooth scrolling */
+    display: flex; /* Use flexbox for a proper horizontal layout */
+    gap: 10px; /* Adds spacing between items */
+    padding: 10px; /* Optional: Padding to make scrolling smoother */
+}
+
+.top-cafes-section::-webkit-scrollbar {
+    display: none;
+}
+.cafe-title7 {
+    position: absolute;
+    top: 169px;
+    left: 0px;
+    line-height: 20px;
+    display: inline-block;
+    width: 135px;
+}
+.toptrending-coffee-image-4 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 9px;
+    width: 135px;
+    height: 135px;
+    object-fit: cover;
+}
+.product-title {
+    position: absolute;
+    top: 141px;
+    left: 0px;
+    font-size: 14px;
+    line-height: 22px;
+    display: inline-block;
+    color: #171a1f;
+    width: 135px;
+}
+.order-now {
+    position: absolute;
+    top: calc(50% - 10px);
+    left: calc(50% - 31px);
+    line-height: 20px;
+}
+.button-order-now {
+    position: absolute;
+    top: 231px;
+    left: 0px;
+    border-radius: 4px;
+    background-color: #fff;
+    border: 1px solid #636ae8;
+    box-sizing: border-box;
+    width: 135px;
+    height: 37px;
+    overflow: hidden;
+    color: #636ae8;
+}
+.price {
+    position: absolute;
+    top: 199px;
+    left: 68px;
+    line-height: 20px;
+    text-align: right;
+    display: inline-block;
+    width: 67px;
+}
+.rating-icons-group {
+    position: absolute;
+    top: 201px;
+    left: 0px;
+    width: 80px;
+    height: 16px;
+}
+.trending-coffee-4-group {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 135px;
+    height: 268px;
+}
+.trending-coffee-card-1 {
+    position: absolute;
+    top: 55px;
+    left: 20px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0);
+    width: 135px;
+    height: 253px;
+}
+.text {
+    position: absolute;
+    top: calc(50% - 14px);
+    left: calc(50% + 12px);
+    line-height: 28px;
+}
+.trend-up-icon {
+    position: absolute;
+    top: calc(50% - 12px);
+    left: calc(50% - 12px);
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+}
+.button-39 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 1px solid rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+    width: 52px;
+    height: 52px;
+    overflow: hidden;
+}
+.trending-coffees {
+    position: absolute;
+    top: 12px;
+    left: 45px;
+    line-height: 28px;
+    color: #171a1f;
+}
+.trending-coffees-title-group {
+    position: sticky;
+    top: 2px;
+    left: 12px;
+    width: 198px;
+    height: 52px;
+    font-size: 18px;
+    color: #fff;
+}
+.trending-coffees-section {
+    position: absolute;
+    top: 1142px;
+    left: -1px;
+    box-shadow: 0px 0px 2px rgba(23, 26, 31, 0.12), 0px 4px 9px rgba(23, 26, 31, 0.03);
+    background-color: #fff;
+    width: 356px;
+    height: 351px;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent items from wrapping */
+    -webkit-overflow-scrolling: touch; /* iOS smooth scrolling */
+    display: flex; /* Use flexbox for a proper horizontal layout */
+    gap: 10px; /* Adds spacing between items */
+    padding: 10px; /* Optional: Padding to make scrolling smoother */
+}
+
+.trending-coffees-section::-webkit-scrollbar {
+    display: none;
+}
+.top-coffeecafes-icon1 {
+    position: absolute;
+    top: calc(50% - 12px);
+    left: calc(50% - 69px);
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+}
+.top-coffee-title-group {
+    position: sticky;
+    top: 14px;
+    left: 26px;
+    width: 138px;
+    height: 28px;
+    font-size: 18px;
+    color: #171a1f;
+}
+.top-coffees-section {
+    position: absolute;
+    top: 791px;
+    left: -1px;
+    box-shadow: 0px 0px 2px rgba(23, 26, 31, 0.12), 0px 4px 9px rgba(23, 26, 31, 0.11);
+    background-color: #fff;
+    width: 356px; /* Keep the container size */
+    height: 351px;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent items from wrapping */
+    -webkit-overflow-scrolling: touch; 
+    display: flex; 
+    gap: 10px; 
+    padding: 10px; 
+}
+
+.top-coffees-section::-webkit-scrollbar {
+    display: none;
+}
+
+
+.coffee-of-the {
+    position: absolute;
+    top: 0px;
+    left: 38px;
+    line-height: 30px;
+    display: inline-block;
+    width: 172px;
+}
+.party-icon2 {
+    position: absolute;
+    top: calc(50% - 12px);
+    left: calc(50% - 124px);
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+}
+.party-icon3 {
+    position: absolute;
+    top: calc(50% - 12px);
+    left: calc(50% + 100px);
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+}
+.coffee-of-the-day-title-group {
+    position: absolute;
+    top: 37px;
+    left: 64px;
+    width: 248px;
+    height: 30px;
+}
+.coffee-of-the-day-image {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 10px;
+    width: 342px;
+    height: 350px;
+    object-fit: cover;
+}
+.product-name {
+    position: absolute;
+    top: 356px;
+    left: 3px;
+    line-height: 26px;
+    display: inline-block;
+    color: #171a1f;
+    width: 339px;
+    height: 22px;
+}
+.cafe-name {
+    position: absolute;
+    top: 388px;
+    left: 3px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #9095a0;
+    display: inline-block;
+    width: 135px;
+}
+.rating-icons-group8 {
+    position: absolute;
+    top: 301px;
+    left: 201px;
+    width: 120px;
+    height: 24px;
+}
+.cafe-brand-icon {
+    position: absolute;
+    top: 261px;
+    left: 21px;
+    width: 64px;
+    height: 64px;
+}
+.product-description {
+    position: absolute;
+    top: 421px;
+    left: 3px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #9095a0;
+    display: inline-block;
+    width: 339px;
+    height: 73px;
+}
+.order-now8 {
+    position: absolute;
+    top: calc(50% - 10px);
+    left: calc(50% - 31.5px);
+    line-height: 20px;
+}
+.button-order-now8 {
+    position: absolute;
+    top: 539px;
+    left: 0px;
+    border-radius: 4px;
+    background-color: #fff;
+    border: 1px solid #636ae8;
+    box-sizing: border-box;
+    width: 342px;
+    height: 32px;
+    overflow: hidden;
+    font-size: 12px;
+}
+.price-tag {
+    position: absolute;
+    top: 495px;
+    left: 252px;
+    line-height: 26px;
+    text-align: right;
+    display: inline-block;
+    width: 90px;
+}
+.size-calories {
+    position: absolute;
+    top: 495px;
+    left: 3px;
+    line-height: 26px;
+    text-align: center;
+    display: inline-block;
+    width: 126px;
+    height: 22px;
+}
+.coffee-of-the-day-card {
+    position: absolute;
+    top: 78px;
+    left: 17px;
+    width: 342px;
+    height: 571px;
+    text-align: left;
+    font-size: 16px;
+    color: #636ae8;
+}
+.coffee-of-the-day-section {
+    position: absolute;
+    top: 107px;
+    left: 0px;
+    box-shadow: 0px 0px 2px rgba(23, 26, 31, 0.12), 0px 4px 9px rgba(23, 26, 31, 0.11);
+    background-color: #fff;
+    width: 375px;
+    height: 684px;
+    text-align: center;
+    font-size: 20px;
+    color: #000;
+}
+.group-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0px 0px 2px rgba(23, 26, 31, 0.12), 0px 4px 9px rgba(23, 26, 31, 0.11);
+    border-radius: 0px 0px 9px 9px;
+    background-color: #fff;
+    width: 390px;
+    height: 117px;
+}
+.map-view-header-box-inner {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 375px;
+    height: 117px;
+}
+.image-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 10px;
+    width: 69px;
+    height: 40px;
+    overflow: hidden;
+}
+.image-icon1 {
+    position: absolute;
+    top: 0px;
+    left: 283px;
+    border-radius: 10px;
+    width: 92px;
+    height: 40px;
+    overflow: hidden;
+}
+.header-timebatteryreception {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 375px;
+    height: 40px;
+}
+.search {
+    position: absolute;
+    top: calc(50% - 12.5px);
+    left: 34px;
+    line-height: 26px;
+}
+.search-icon {
+    position: absolute;
+    top: calc(50% - 7.5px);
+    left: 12px;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+}
+.search-bar {
+    position: absolute;
+    top: 6px;
+    left: 65px;
+    border-radius: 9px;
+    background-color: #fff;
+    border: 1px solid #bcc1ca;
+    box-sizing: border-box;
+    width: 220px;
+    height: 39px;
+    opacity: 0.79;
+}
+.filter-button-icon {
+    position: absolute;
+    top: 0px;
+    left: 298px;
+    border-radius: 6px;
+    width: 30px;
+    height: 52px;
+    overflow: hidden;
+}
+.gps-button-icon {
+    position: absolute;
+    top: 0px;
+    left: 9px;
+    border-radius: 6px;
+    width: 35px;
+    height: 52px;
+    overflow: hidden;
+}
+.header-group {
+    position: fixed;
+    top: 59px;
+    left: 13px;
+    width: 358px;
+    height: 52px;
+}
+.map-view-header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 375px;
+    height: 111px;
+}
+.map-view-header-box {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 375px;
+    height: 117px;
+    font-size: 16px;
+    color: #bcc1ca;
+}
+.discovery-view {
+    width: 100%;
+    position: relative;
+    box-shadow: 0px 3px 6px rgba(18, 15, 40, 0.12);
+    background-color: #fff;
+    height: 2493px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 12px;
+    color: #9095a0;
+    font-family: Inter;
+}
+
+
+

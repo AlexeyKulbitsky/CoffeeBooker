@@ -1,0 +1,71 @@
+.image-2588-icon {
+    position: absolute;
+    top: 322px;
+    left: 46px;
+    border-radius: 6px;
+    width: 285px;
+    height: 94px;
+    overflow: hidden;
+}
+.start-view-title {
+    position: absolute;
+    top: 447px;
+    left: 1px;
+    line-height: 36px;
+    font-weight: 600;
+    display: inline-block;
+    width: 375px;
+}
+.image-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 10px;
+    width: 69px;
+    height: 40px;
+    overflow: hidden;
+}
+.reception-icon {
+    position: absolute;
+    top: 0px;
+    left: 283px;
+    border-radius: 10px;
+    width: 92px;
+    height: 40px;
+    overflow: hidden;
+}
+.header-timebatteryreception {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 375px;
+    height: 40px;
+}
+.start-view-group {
+    position: absolute;
+    top: 3px;
+    left: 0px;
+    box-shadow: 0px 0px 2px rgba(23, 26, 31, 0.12), 0px 8px 17px rgba(23, 26, 31, 0.15);
+    border-radius: 16px 16px 0px 0px;
+    background-color: #fff;
+    width: 375px;
+    height: 805px;
+    overflow: hidden;
+}
+.start-view {
+    width: 100%;
+    position: relative;
+    box-shadow: 0px 3px 6px rgba(18, 15, 40, 0.12);
+    background-color: #fff;
+    height: 812px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 24px;
+    color: #171a1f;
+    font-family: Archivo;
+}
+
+.fade-out {
+    opacity: 0;
+}
+
