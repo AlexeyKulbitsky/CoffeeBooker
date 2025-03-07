@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="initial-scale=1, width=device-width">
+   
+   <link rel="stylesheet"  href="./index.css" />
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" />
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600&display=swap" />
+</head>
+<body>
+   <div class="login-view">
+      <div class="textbox-password">
+         <div class="textfield">
+            <input type="password" id="password-input" class="enter-at-least" placeholder="Enter at least 8+ characters">
+            <button class="button visibility-toggle" id="toggle-password">
+               <img class="icon" alt="Toggle Password Visibility" id="visibility-icon" src="../assets/registration/visibilityoff.png">
+            </button>
+         </div>
+         <b class="password">Password</b>
+      </div>
+      <div class="textbox-email">
+         <b class="email">Email</b>
+         <div class="textfield1">
+            <input type="email" class="enter-at-least" placeholder="example.email@gmail.com">
+         </div>
+         <div class="textbox-email-child"></div>
+      </div>
+      <button class="button-login">
+         <div class="log-in">Log In</div>
+      </button>
+      <div class="login-title">Log In</div>
+      <button class="logo-button2">
+         <img class="icon" alt="Facebook" src="../assets/registration/button2998.png">
+      </button>
+      <button class="logo-button1" id="google-login">
+         <img class="icon" alt="Google" src="../assets/registration/button2999.png">
+      </button>
+      <button class="logo-button3">
+         <img class="icon" alt="Apple" src="../assets/registration/button3000.png">
+      </button>
+      <img class="image-2588-icon" alt="Background Image" src="../assets/registration/image2588.png">
+   </div>
+   <script>
+      document.getElementById("toggle-password").addEventListener("click", function() {
+         var passwordInput = document.getElementById("password-input");
+         var visibilityIcon = document.getElementById("visibility-icon");
+         if (passwordInput.type === "password") {
+            passwordInput.type = "text";
+            visibilityIcon.src = "../assets/registration/visibilityon.png"; // Change to visible icon
+         } else {
+            passwordInput.type = "password";
+            visibilityIcon.src = "../assets/registration/visibilityoff.png"; // Change to hidden icon
+         }
+      });
+   </script>
+</body>
+</html>

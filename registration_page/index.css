@@ -1,0 +1,415 @@
+.text-20201 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    line-height: 22px;
+}
+.text-20204 {
+    position: absolute;
+    top: 0px;
+    left: 141px;
+    line-height: 22px;
+    color: #636ae8;
+    text-align: left;
+}
+.text-20201-parent {
+    position: absolute;
+    top: 736px;
+    left: 97px;
+    width: 182px;
+    height: 22px;
+}
+.enter-at-least {
+    position: absolute;
+    top: calc(50% - 12.5px);
+    left: 16px;
+    line-height: 26px;
+}
+.visibility-off-icon {
+    position: absolute;
+    top: calc(50% - 9.5px);
+    right: 15px;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+}
+.textfield {
+    position: absolute;
+    height: calc(100% - 27px);
+    width: 100%;
+    top: 26.5px;
+    right: 0.5px;
+    bottom: 0.5px;
+    left: -0.5px;
+    border-radius: 22px;
+    background-color: #f3f4f6;
+    border: 1px solid rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+}
+.password {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    line-height: 26px;
+    color: #424955;
+}
+.textbox-725 {
+    position: absolute;
+    top: 472px;
+    left: 29px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 312px;
+    height: 71px;
+}
+.textbox-726 {
+    position: absolute;
+    top: 381px;
+    left: 30px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 311px;
+    height: 71px;
+}
+.sign-up {
+    position: absolute;
+    top: calc(50% - 14px);
+    left: calc(50% - 32px);
+    line-height: 28px;
+}
+.button-2997 {
+    position: absolute;
+    top: 583px;
+    left: 30px;
+    box-shadow: 0px 0px 2px rgba(99, 106, 232, 0.12), 0px 8px 17px rgba(99, 106, 232, 0.15);
+    border-radius: 26px;
+    background-color: #636ae8;
+    border: 1px solid rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+    width: 311px;
+    height: 52px;
+    overflow: hidden;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+}
+.button-2997:hover{
+    background-color: #4b51c0;
+}
+.textbox-727 {
+    position: absolute;
+    top: 290px;
+    left: 30px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 311px;
+    height: 71px;
+}
+.text-20202 {
+    position: absolute;
+    top: 140px;
+    left: 0px;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 600;
+    font-family: Archivo;
+    color: #171a1f;
+    text-align: center;
+    display: inline-block;
+    width: 375px;
+}
+.text {
+    position: absolute;
+    top: calc(50% - 11px);
+    left: calc(50% + 8px);
+    line-height: 22px;
+}
+.logo-facebook-icon {
+    position: absolute;
+    top: calc(50% - 8px);
+    left: calc(50% - 8px);
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+}
+.button-2998 {
+    position: absolute;
+    top: 222px;
+    left: 166px;
+    border-radius: 18px;
+    background-color: #f3f6fb;
+    border: 1px solid rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+    width: 36px;
+    height: 36px;
+    overflow: hidden;
+    font-size: 14px;
+    color: #335ca6;
+}
+.button-2999 {
+    position: absolute;
+    top: 222px;
+    left: 110px;
+    border-radius: 18px;
+    background-color: #fef1f1;
+    border: 1px solid rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+    width: 36px;
+    height: 36px;
+    overflow: hidden;
+    font-size: 14px;
+    color: #c71610;
+}
+.button-3000 {
+    position: absolute;
+    top: 222px;
+    left: 222px;
+    border-radius: 18px;
+    background-color: #f3f4f6;
+    border: 1px solid rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+    width: 36px;
+    height: 36px;
+    overflow: hidden;
+    font-size: 14px;
+    color: #565e6c;
+}
+.image-2588-icon {
+    position: absolute;
+    top: 0px;
+    left: 42px;
+    border-radius: 6px;
+    width: 285px;
+    height: 94px;
+    overflow: hidden;
+}
+.textbox-725-parent {
+    position: absolute;
+    top: 89px;
+    left: 0px;
+    width: 375px;
+    height: 635px;
+    text-align: left;
+    font-size: 16px;
+    color: #bcc1ca;
+}
+.image-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 10px;
+    width: 69px;
+    height: 40px;
+    overflow: hidden;
+}
+.image-icon1 {
+    position: absolute;
+    top: 0px;
+    left: 283px;
+    border-radius: 10px;
+    width: 92px;
+    height: 40px;
+    overflow: hidden;
+}
+.image-parent {
+    position: absolute;
+    top: 0px;
+    left: 1px;
+    width: 375px;
+    height: 40px;
+}
+.registration-v2 {
+    width: 100%;
+    position: relative;
+    box-shadow: 0px 3px 6px rgba(18, 15, 40, 0.12);
+    background-color: #fff;
+    height: 812px;
+    overflow: hidden;
+    text-align: right;
+    font-size: 14px;
+    color: #323842;
+    font-family: Inter;
+}
+
+body {
+    margin: 0;
+    line-height: normal;
+}
+
+.textfield input {
+    border: none;  /* Removes the border */
+    outline: none; /* Removes the outline when focused */
+    background: transparent; /* Makes the background transparent */
+  }
+
+
+  input[type="email"] {
+    font-family: 'Inter', sans-serif;
+  }
+
+  input[type="text"] {
+    font-family: 'Inter', sans-serif;
+  }
+
+  
+  .logo-button1 {
+    position: absolute; 
+    top: 222px; 
+    left: 111px; 
+    width: 36px; 
+    height: 36px; 
+    padding: 0 10px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    color: #C71610; 
+    background: #FEF1F1; 
+    border: none; 
+    border-radius: 18px; 
+    cursor: pointer; 
+  }
+  
+  /* Icon styling */
+  .logo-button1 .icon {
+    width: 30px; 
+    height: 30px; 
+  }
+  
+  /* Hover effect */
+  .logo-button1:hover {
+    background: #FDEEED; 
+  }
+  
+  /* Pressed (active) state */
+  .logo-button1:active {
+    background: #FDE1E0; 
+  }
+  
+  /* Disabled state */
+  .logo-button1:disabled {
+    opacity: 0.4; 
+    cursor: not-allowed;
+  }
+
+  .logo-button2 {
+    position: absolute; 
+    top: 222px; 
+    left: 167px; 
+    width: 36px; 
+    height: 36px; 
+    padding: 0 10px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    color: #335CA6FF;  
+    background: #F3F6FBFF; 
+    border: none; 
+    border-radius: 18px; 
+    cursor: pointer; 
+  }
+  
+  /* Icon styling */
+  .logo-button2 .icon {
+    width: 30px; 
+    height: 30px; 
+    fill: rgb(0, 255, 76);
+  }
+  
+  /* Hover effect */
+  .logo-button2:hover {
+    background: #F0F4FAFF;
+  }
+  
+  /* Pressed (active) state */
+  .logo-button2:active {
+    color: #335CA6FF; 
+  background: #E7ECF7FF; 
+  }
+  
+  /* Disabled state */
+  .logo-button2:disabled {
+    opacity: 0.4; 
+    cursor: not-allowed;
+  }
+
+  .logo-button3 {
+    position: absolute; 
+    top: 222px; 
+    left: 223px; 
+    width: 36px; 
+    height: 36px; 
+    padding: 0 10px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    color: #565E6CFF; 
+    background: #F3F4F6FF; 
+    opacity: 1; 
+    border: none; 
+    border-radius: 18px; 
+    gap: 0px; 
+    cursor: pointer;
+  }
+  
+  /* Icon styling */
+  .logo-button3 .icon {
+    width: 30px; 
+    height: 30px; 
+    fill: rgb(86, 108, 106); 
+  }
+  
+  /* Hover effect */
+  .logo-button3:hover {
+    color: #565E6CFF; 
+  background: #DEE1E6FF; 
+  }
+  
+  /* Pressed (active) state */
+  .logo-button3:active {
+    color: #565E6CFF; 
+  background: #CFD2DAFF; 
+  }
+  
+  /* Disabled state */
+  .logo-button3:disabled {
+    opacity: 0.4; 
+    cursor: not-allowed;
+  }
+
+  /* Visibility Toggle Button */
+.visibility-toggle {
+    position: absolute; 
+    top: -6px; 
+    left: 260px; 
+    width: 36px; 
+    height: 52px; 
+    padding: 0 14px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    background: #f0eded00; 
+    border: none; 
+    border-radius: 6px; 
+    cursor: pointer;
+    opacity: 1; 
+  }
+  
+  /* Icon inside the button */
+  .visibility-toggle .icon {
+    width: 16px; 
+    height: 16px; 
+    fill: #171A1FFF; 
+  }
+  
+  
+  
+  /* Pressed effect */
+  .visibility-toggle:active {
+    background: #FFFFFF99; 
+  }
+  
+  /* Disabled state */
+  .visibility-toggle:disabled {
+    opacity: 0.4; 
+    cursor: not-allowed;
+  }
+
+  
+  

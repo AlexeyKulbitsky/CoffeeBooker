@@ -1,0 +1,384 @@
+.placeholder-map-image {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 395px;
+    height: 812px;
+    overflow: hidden;
+    object-fit: cover;
+}
+.text {
+    position: absolute;
+    top: calc(50% - 13px);
+    left: calc(50% + 10px);
+    line-height: 26px;
+}
+.location-on-icon {
+    position: absolute;
+    top: calc(50% - 10px);
+    left: calc(50% - 10px);
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+}
+.your-location {
+    position: absolute;
+    top: 216px;
+    left: 207px;
+    border-radius: 22px;
+    background-color: #636ae8;
+    border: 1px solid rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+    width: 44px;
+    height: 44px;
+    overflow: hidden;
+    font-size: 16px;
+    color: #fff;
+}
+.text1 {
+    position: absolute;
+    top: calc(50% - 11px);
+    left: calc(50% + 8px);
+    line-height: 22px;
+}
+.shopping-cart-icon {
+    position: absolute;
+    top: calc(50% - 8px);
+    left: calc(50% - 8px);
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+}
+.nearby-shop {
+    position: absolute;
+    top: 152px;
+    left: 27px;
+    border-radius: 18px;
+    background-color: #fff;
+    border: 1px solid #9095a0;
+    box-sizing: border-box;
+    width: 36px;
+    height: 36px;
+    overflow: hidden;
+}
+.nearby-home {
+    position: absolute;
+    top: 318px;
+    left: 308px;
+    box-shadow: 0px 0px 2px rgba(23, 26, 31, 0.12), 0px 2px 5px rgba(23, 26, 31, 0.09);
+    border-radius: 18px;
+    background-color: #fff;
+    border: 1px solid #9095a0;
+    box-sizing: border-box;
+    width: 36px;
+    height: 36px;
+    overflow: hidden;
+}
+.nearby-shop1 {
+    position: absolute;
+    top: 152px;
+    left: 328px;
+    box-shadow: 0px 0px 2px rgba(23, 26, 31, 0.12), 0px 2px 5px rgba(23, 26, 31, 0.09);
+    border-radius: 18px;
+    background-color: #fff;
+    border: 1px solid #9095a0;
+    box-sizing: border-box;
+    width: 36px;
+    height: 36px;
+    overflow: hidden;
+}
+.placeholder-map-frame {
+    position: absolute;
+    top: 0px;
+    left: -9px;
+    width: 395px;
+    height: 812px;
+    color: #9095a0;
+}
+.image-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 10px;
+    width: 69px;
+    height: 40px;
+    overflow: hidden;
+}
+.image-icon1 {
+    position: absolute;
+    top: 0px;
+    left: 283px;
+    border-radius: 10px;
+    width: 92px;
+    height: 40px;
+    overflow: hidden;
+}
+.header-timebatteryreception {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 375px;
+    height: 40px;
+}
+.search {
+    position: absolute;
+    top: calc(50% - 12.5px);
+    left: 34px;
+    line-height: 26px;
+}
+.search-icon {
+    position: absolute;
+    top: calc(50% - 7.5px);
+    left: 12px;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+}
+.search-bar {
+    position: absolute;
+    top: 6px;
+    left: 65px;
+    border-radius: 9px;
+    background-color: #fff;
+    border: 1px solid #bcc1ca;
+    box-sizing: border-box;
+    width: 220px;
+    height: 39px;
+    opacity: 0.79;
+}
+.filter-button-icon {
+    position: absolute;
+    top: 0px;
+    left: 298px;
+    border-radius: 6px;
+    width: 60px;
+    height: 52px;
+    overflow: hidden;
+}
+.gps-button-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 6px;
+    width: 60px;
+    height: 52px;
+    overflow: hidden;
+}
+.header-group {
+    position: absolute;
+    top: 59px;
+    left: 13px;
+    width: 358px;
+    height: 52px;
+}
+.map-view-header {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 375px;
+    height: 111px;
+    font-size: 16px;
+    color: #bcc1ca;
+}
+.map-icon-selected {
+    position: absolute;
+    top: calc(50% - 26px);
+    left: calc(50% - 16.02px);
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+}
+.map {
+    position: absolute;
+    top: calc(50% + 6px);
+    left: calc(50% - 13.02px);
+    line-height: 20px;
+}
+.map-button {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 93.8px;
+    height: 64px;
+    overflow: hidden;
+    color: #636ae8;
+}
+.account {
+    position: absolute;
+    top: calc(50% + 6px);
+    left: calc(50% - 24.03px);
+    line-height: 20px;
+}
+.account-button {
+    position: absolute;
+    top: 0px;
+    left: 281.25px;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 93.8px;
+    height: 64px;
+    overflow: hidden;
+}
+.cart-icon-default {
+    position: absolute;
+    top: calc(50% - 26px);
+    left: calc(50% - 15.63px);
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+}
+.coffee-cart {
+    position: absolute;
+    top: calc(50% + 6px);
+    left: calc(50% - 32.63px);
+    line-height: 20px;
+}
+.cart-button {
+    position: absolute;
+    top: 3px;
+    left: 188px;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 93px;
+    height: 58px;
+    overflow: hidden;
+}
+.discover {
+    position: absolute;
+    top: calc(50% + 6px);
+    left: calc(50% - 25.03px);
+    line-height: 20px;
+}
+.discover-button {
+    position: absolute;
+    top: 0px;
+    left: 93.75px;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 93.8px;
+    height: 64px;
+    overflow: hidden;
+}
+.map-view-footer-buttons-group {
+    position: absolute;
+    top: 744px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 375px;
+    height: 64px;
+    font-size: 12px;
+}
+.group-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0px 0px 2px rgba(23, 26, 31, 0.12), 0px 8px 17px rgba(23, 26, 31, 0.13);
+    border-radius: 9px;
+    background-color: #fff;
+    width: 259px;
+    height: 73px;
+}
+.coffee-shop-2 {
+    position: absolute;
+    top: 6px;
+    left: 91px;
+    line-height: 22px;
+    display: inline-block;
+    width: 160px;
+}
+.m-away {
+    position: absolute;
+    top: 28px;
+    left: 91px;
+    font-size: 11px;
+    line-height: 18px;
+    white-space: pre-wrap;
+    display: inline-block;
+    width: 132px;
+    height: 41px;
+}
+.rating-1-icon {
+    position: absolute;
+    top: 50px;
+    left: 91px;
+    width: 85px;
+    height: 16px;
+}
+.walk-map-card {
+    position: absolute;
+    top: 29px;
+    left: 221px;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+}
+.rectangle-parent {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 259px;
+    height: 73px;
+}
+.cafe-image-small {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 9px 0px 0px 9px;
+    width: 85px;
+    height: 73px;
+    object-fit: cover;
+}
+.rd-cafe-option {
+    position: absolute;
+    top: 0px;
+    left: 592px;
+    width: 259px;
+    height: 73px;
+    cursor: pointer;
+}
+.nd-cafe-option {
+    position: absolute;
+    top: 0px;
+    left: 296px;
+    width: 259px;
+    height: 73px;
+}
+.st-cafe-option {
+    position: absolute;
+    top: 1px;
+    left: -2px;
+    width: 259px;
+    height: 73px;
+}
+.map-view-scrollable-cafe-optio {
+    position: absolute;
+    top: 632px;
+    left: 20px;
+    box-shadow: 0px 0px 2px rgba(23, 26, 31, 0.12), 0px 4px 9px rgba(23, 26, 31, 0.11);
+    background-color: rgba(255, 255, 255, 0);
+    width: 426px;
+    height: 73px;
+}
+.map-view {
+    width: 100%;
+    position: relative;
+    box-shadow: 0px 3px 6px rgba(18, 15, 40, 0.12);
+    background-color: #fff;
+    height: 812px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 14px;
+    color: #171a1f;
+    font-family: Inter;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+

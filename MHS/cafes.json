@@ -1,0 +1,117 @@
+[
+    {
+        "cafe_id": 1,
+        "name": "CafeA",
+        "location": "River Alley Road",
+        "opening_hours": "6AM-9PM",
+        "contact_number": "5xx6xx9xx"
+    },
+
+    {
+        "cafe_id": 2,
+        "name": "CafeB",
+        "location": "Shining Avenue",
+        "opening_hours": "7AM-10PM",
+        "contact_number": "5xx6xx9xx"
+    },
+    
+    {
+        "cafe_id": 3,
+        "name": "CafeC",
+        "location": "Riverside Road",
+        "opening_hours": "6AM-9PM",
+        "contact_number": "5xx6xx9xx"
+    },
+    {
+        "cafe_id": 4,
+        "name": "CafeD",
+        "location": "Greenwood Lane",
+        "opening_hours": "7AM-10PM",
+        "contact_number": "5xx6xx9xx"
+    },
+    {
+        "cafe_id": 5,
+        "name": "CafeE",
+        "location": "Maple Street",
+        "opening_hours": "8AM-11PM",
+        "contact_number": "5xx6xx9xx"
+    },
+    {
+        "cafe_id": 6,
+        "name": "CafeF",
+        "location": "Hilltop Avenue",
+        "opening_hours": "6AM-8PM",
+        "contact_number": "5xx6xx9xx"
+    },
+    {
+        "cafe_id": 7,
+        "name": "CafeG",
+        "location": "Sunset Boulevard",
+        "opening_hours": "7AM-10PM",
+        "contact_number": "5xx6xx9xx"
+    },
+    {
+        "cafe_id": 8,
+        "name": "CafeH",
+        "location": "Lakeside Drive",
+        "opening_hours": "8AM-9PM",
+        "contact_number": "5xx6xx9xx"
+    },
+    {
+        "cafe_id": 9,
+        "name": "CafeI",
+        "location": "Broadway Street",
+        "opening_hours": "6AM-10PM",
+        "contact_number": "5xx6xx9xx"
+    },
+    {
+        "cafe_id": 10,
+        "name": "CafeJ",
+        "location": "Park Avenue",
+        "opening_hours": "7AM-11PM",
+        "contact_number": "5xx6xx9xx"
+    },
+    {
+        "cafe_id": 11,
+        "name": "CafeK",
+        "location": "Mountain Road",
+        "opening_hours": "8AM-9PM",
+        "contact_number": "5xx6xx9xx"
+    },
+    {
+        "cafe_id": 12,
+        "name": "CafeL",
+        "location": "Seaside Street",
+        "opening_hours": "7AM-10PM",
+        "contact_number": "5xx6xx9xx"
+    },
+    {
+        "cafe_id": 13,
+        "name": "CafeM",
+        "location": "Silver Oak Drive",
+        "opening_hours": "6AM-8PM",
+        "contact_number": "5xx6xx9xx"
+    },
+    {
+        "cafe_id": 14,
+        "name": "CafeN",
+        "location": "King's Road",
+        "opening_hours": "8AM-11PM",
+        "contact_number": "5xx6xx9xx"
+    },
+    {
+        "cafe_id": 15,
+        "name": "CafeO",
+        "location": "Chico Downtown",
+        "opening_hours": "8AM-11PM",
+        "contact_number": "5xx6xx9xx"
+    },
+    {
+        "cafe_id": 16,
+        "name": "Nates Cafe",
+        "location": "Malta",
+        "opening_hours": "9AM-10PM",
+        "contact_number": "5xx6xx9xx"
+    }
+
+]
