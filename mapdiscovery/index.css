@@ -878,4 +878,11 @@
 }
 
 
+body {
+    margin: 0;
+    line-height: normal;
+    width:375px;
+}
+
+
 

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="initial-scale=1, width=device-width">
+  	
+  	<link rel="stylesheet"  href="./index.css" />
+	  <link rel="stylesheet"  href="../universalcss.css" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&display=swap" />
+  	
+  	
+  	
+</head>
+<body>
+  	
+  	<div class="account-settings-mobile-numb">
+    		<div class="mobile-number-container">
+      			<div class="button-save-mobile-number">
+        				<div class="save">Save</div>
+      			</div>
+      			<div class="country-code-container">
+        				<b class="country-code-title">Country Code</b>
+        				<div class="textbox-enter-country-code">
+          					<div class="rectangle">
+          					</div>
+          					<input type="text" class="select-options" placeholder="Enter Country Code..." />
+        				</div>
+      			</div>
+      			<div class="phone-number-container">
+        				<b class="country-code-title">Phone Number</b>
+        				<div class="textbox-enter-country-code">
+          					<div class="rectangle">
+          					</div>
+          					<input type="text" class="select-options"placeholder="Enter Country Code..." />
+        				</div>
+      			</div>
+    		</div>
+    		<div class="account-settings-mobile-numb1">
+      			<div class="account-settings-mobile-numb-child">
+      			</div>
+      			
+      			<a href="../mapaccountsettings/accountsettings.html"><img class="button-navigate-back" alt="" src="../assets/privacypolicy/Button - Navigate Back.svg"></a>
+      			
+      			<div class="mobile-number-title-group">
+        				<b class="mobile-number">Mobile Number</b>
+        				<div class="mobile-number1">+44 7911 123456</div>
+      			</div>
+    		</div>
+    		<div class="account-view-footer">
+      			<div class="map-view-footer-buttons-group">
+        				<div class="map-button">
+          					<img class="map-icon-default" alt="" src="../assets/mapaccount/Map Icon Default.svg">
+          					
+          					<div class="map">Map</div>
+        				</div>
+        				<div class="account-button">
+          					<img class="map-icon-default" alt="" src="../assets/mapaccount/Account Icon Selected.svg">
+          					
+          					<b class="account">Account</b>
+        				</div>
+        				<div class="cart-button">
+          					<img class="cart-icon-default" alt="" src="../assets/mapaccount/Cart Icon Default.svg">
+          					
+          					<div class="coffee-cart">Coffee Cart</div>
+        				</div>
+        				<div class="discover-button">
+          					<img class="map-icon-default" alt="" src="../assets/mapaccount/Discover Icon Default.svg">
+          					
+          					<div class="account">Discover</div>
+        				</div>
+      			</div>
+    		</div>
+  	</div>
+  	
+  	<script>
+        document.addEventListener("DOMContentLoaded", function () {
+            document.querySelectorAll('.select-options').forEach(input => {
+                input.addEventListener('input', function () {
+                    let newValue = this.value.replace(/[^0-9]/g, ''); // Remove non-numeric characters
+                    
+                    if (this.value !== newValue) { 
+                        alert("Only numbers are allowed!"); // Show alert when invalid input is detected
+                    }
+    
+                    this.value = newValue; // Update the input field
+                });
+            });
+        });
+    </script>
+    
+  	
+  	
+</body>
+</html>

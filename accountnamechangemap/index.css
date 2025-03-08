@@ -1,0 +1,273 @@
+.name-title {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    text-decoration: underline;
+    line-height: 26px;
+    display: inline-block;
+    width: 219px;
+    text-decoration: none;
+}
+.choose-name {
+    position: absolute;
+    top: calc(50% - 10.5px);
+    left: 12px;
+    line-height: 22px;
+    border: none; 
+    outline: none; 
+    background: transparent;
+}
+.textbox-enter-new-name {
+    position: absolute;
+    top: 44.5px;
+    left: -0.5px;
+    border-radius: 9px;
+    background-color: #fff;
+    border: 1px solid #171a1f;
+    box-sizing: border-box;
+    width: 305px;
+    height: 50px;
+    font-size: 14px;
+    color: #bcc1ca;
+    font-family: Inter;
+}
+.name-enter-group {
+    position: absolute;
+    top: 8px;
+    left: 19px;
+    width: 304px;
+    height: 94px;
+}
+.enter-name-frame {
+    position: absolute;
+    top: 55px;
+    left: 17px;
+    box-shadow: 0px 0px 2px rgba(23, 26, 31, 0.12), 0px 0px 1px rgba(23, 26, 31, 0.07);
+    border-radius: 6px;
+    background-color: #fff;
+    width: 342px;
+    height: 131px;
+    overflow: hidden;
+}
+.save {
+    position: absolute;
+    top: calc(50% - 14px);
+    left: calc(50% - 21px);
+    line-height: 28px;
+}
+.button-save-name {
+    position: absolute;
+    top: 490px;
+    left: 16px;
+    box-shadow: 0px 0px 2px rgba(23, 26, 31, 0.12), 0px 8px 17px rgba(23, 26, 31, 0.22);
+    border-radius: 6px;
+    background-color: #636ae8;
+    border: 1px solid rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+    width: 343px;
+    height: 40px;
+    overflow: hidden;
+    font-size: 18px;
+    color: #fff;
+    font-family: Inter;
+}
+.button-save-name:hover{
+    transform:scale(1.007);
+}
+.name-change-container {
+    position: absolute;
+    top: 121px;
+    left: 0px;
+    background-color: #fff;
+    width: 375px;
+    height: 615px;
+    color: #000;
+}
+.account-settings-name-change-child {
+    position: absolute;
+    top: 2px;
+    left: 0px;
+    box-shadow: 0px 0px 2px rgba(23, 26, 31, 0.12), 0px 4px 9px rgba(23, 26, 31, 0.04);
+    border-radius: 0px 0px 9px 9px;
+    background-color: #fff;
+    width: 375px;
+    height: 117px;
+}
+.notch-header-time {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 10px;
+    width: 69px;
+    height: 40px;
+    overflow: hidden;
+}
+.notch-header-receptionwifiba {
+    position: absolute;
+    top: 0px;
+    left: 283px;
+    border-radius: 10px;
+    width: 92px;
+    height: 40px;
+    overflow: hidden;
+}
+.header-timebatteryreception {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 375px;
+    height: 40px;
+}
+.button-navigate-back {
+    position: absolute;
+    top: 64px;
+    left: 18px;
+    width: 34px;
+    height: 34px;
+    overflow: hidden;
+}
+.button-navigate-back:hover{
+    transform:scale(1.1);
+
+}
+.name-title1 {
+    position: absolute;
+    top: 0px;
+    left: calc(50% - 136.5px);
+    line-height: 30px;
+    display: inline-block;
+    width: 273px;
+}
+.name-chosen {
+    position: absolute;
+    top: 30px;
+    left: calc(50% - 136.5px);
+    font-size: 16px;
+    line-height: 26px;
+    color: #000;
+    display: inline-block;
+    width: 273px;
+}
+.name-title-group {
+    position: absolute;
+    top: 53px;
+    left: calc(50% - 136.5px);
+    width: 273px;
+    height: 56px;
+}
+.account-settings-name-change1 {
+    position: absolute;
+    top: 2px;
+    left: 0px;
+    width: 375px;
+    height: 119px;
+    text-align: center;
+    font-size: 20px;
+}
+.map-icon-default {
+    position: absolute;
+    top: calc(50% - 26px);
+    left: calc(50% - 16.02px);
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+}
+.map {
+    position: absolute;
+    top: calc(50% + 6px);
+    left: calc(50% - 12.52px);
+    line-height: 20px;
+}
+.map-button {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 93.8px;
+    height: 64px;
+    overflow: hidden;
+}
+.account {
+    position: absolute;
+    top: calc(50% + 6px);
+    left: calc(50% - 25.03px);
+    line-height: 20px;
+}
+.account-button {
+    position: absolute;
+    top: 0px;
+    left: 280.25px;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 93.8px;
+    height: 64px;
+    overflow: hidden;
+    color: #636ae8;
+}
+.cart-icon-default {
+    position: absolute;
+    top: calc(50% - 26px);
+    left: calc(50% - 15.63px);
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+}
+.coffee-cart {
+    position: absolute;
+    top: calc(50% + 6px);
+    left: calc(50% - 32.63px);
+    line-height: 20px;
+}
+.cart-button {
+    position: absolute;
+    top: 3px;
+    left: 188px;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 93px;
+    height: 58px;
+    overflow: hidden;
+}
+.discover-button {
+    position: absolute;
+    top: 0px;
+    left: 93.75px;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 93.8px;
+    height: 64px;
+    overflow: hidden;
+}
+.map-view-footer-buttons-group {
+    position: absolute;
+    top: 6px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 375px;
+    height: 64px;
+}
+.account-view-footer {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    box-shadow: 0px 0px 2px rgba(23, 26, 31, 0.12), 0px 4px 9px rgba(23, 26, 31, 0.11);
+    background-color: #fff;
+    width: 375px;
+    height: 76px;
+    font-size: 12px;
+    font-family: Inter;
+}
+.account-settings-name-change {
+    width: 100%;
+    position: relative;
+    box-shadow: 0px 3px 6px rgba(18, 15, 40, 0.12);
+    background-color: #fff;
+    height: 812px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 16px;
+    color: #171a1f;
+    font-family: Archivo;
+}
+
