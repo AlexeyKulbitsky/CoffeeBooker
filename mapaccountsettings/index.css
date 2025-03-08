@@ -1,0 +1,452 @@
+.profile-picture-title {
+    position: absolute;
+    top: 9px;
+    left: 9px;
+    line-height: 22px;
+    display: inline-block;
+    width: 127px;
+}
+.button-go-to-change-picture {
+    position: absolute;
+    top: 9px;
+    left: 300px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+}
+.user-uploaded-picture {
+    position: absolute;
+    top: 5px;
+    left: 259px;
+    border-radius: 16px;
+    width: 31px;
+    height: 31px;
+    overflow: hidden;
+    object-fit: cover;
+}
+.profile-picture-option {
+    position: absolute;
+    top: 53px;
+    left: 14px;
+    box-shadow: 0px 0px 2px rgba(23, 26, 31, 0.12), 0px 0px 1px rgba(23, 26, 31, 0.07);
+    border-radius: 6px;
+    background-color: #fff;
+    width: 346px;
+    height: 41px;
+    overflow: hidden;
+}
+.email-title {
+    position: absolute;
+    top: 10px;
+    left: 8px;
+    line-height: 22px;
+    display: inline-block;
+    width: 124px;
+}
+.user-email-displayed {
+    position: absolute;
+    top: 12px;
+    left: 135px;
+    font-size: 11px;
+    line-height: 18px;
+    text-align: right;
+    display: inline-block;
+    width: 154px;
+}
+.email-option {
+    position: absolute;
+    top: 135px;
+    left: 15px;
+    box-shadow: 0px 0px 2px rgba(23, 26, 31, 0.12), 0px 0px 1px rgba(23, 26, 31, 0.07);
+    border-radius: 6px;
+    background-color: #fff;
+    width: 346px;
+    height: 41px;
+    overflow: hidden;
+}
+.button-sign-out {
+    position: absolute;
+    top: 503px;
+    left: 137px;
+    font-size: 20px;
+    line-height: 30px;
+    display: inline-block;
+    color: #de3b40;
+    text-align: center;
+    width: 90px;
+    cursor:pointer;
+}
+.delete-account-title {
+    position: absolute;
+    top: 9px;
+    left: 16px;
+    line-height: 22px;
+    display: inline-block;
+    width: 159px;
+    height: 24px;
+}
+.button-go-to-delete-account {
+    position: absolute;
+    top: 9px;
+    left: 305px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+}
+.delete-account-option {
+    position: absolute;
+    top: 347px;
+    left: 15px;
+    box-shadow: 0px 0px 2px rgba(23, 26, 31, 0.12), 0px 0px 1px rgba(23, 26, 31, 0.07);
+    border-radius: 6px;
+    background-color: #fff;
+    width: 346px;
+    height: 41px;
+    overflow: hidden;
+}
+.lr-chosen-options {
+    position: absolute;
+    top: 12px;
+    left: 134px;
+    font-size: 11px;
+    line-height: 18px;
+    text-align: right;
+    display: inline-block;
+    width: 155px;
+}
+.language-region-option {
+    position: absolute;
+    top: 260px;
+    left: 15px;
+    box-shadow: 0px 0px 2px rgba(23, 26, 31, 0.12), 0px 0px 1px rgba(23, 26, 31, 0.07);
+    border-radius: 6px;
+    background-color: #fff;
+    width: 345px;
+    height: 41px;
+    overflow: hidden;
+}
+.push-notifications-title {
+    position: absolute;
+    top: 10px;
+    left: 9px;
+    line-height: 22px;
+    display: inline-block;
+    width: 126px;
+}
+.switch-off-icon {
+    position: absolute;
+    top: 10px;
+    left: 290px;
+    border-radius: 12px;
+    width: 39px;
+    height: 24px;
+}
+.switch-on-icon {
+    position: absolute;
+    top: 10px;
+    left: 290px;
+    border-radius: 12px;
+    width: 39px;
+    height: 24px;
+    display: none;
+}
+.push-notifications-option {
+    position: absolute;
+    top: 217px;
+    left: 14px;
+    box-shadow: 0px 0px 2px rgba(23, 26, 31, 0.12), 0px 0px 1px rgba(23, 26, 31, 0.07);
+    border-radius: 6px;
+    background-color: #fff;
+    width: 345px;
+    height: 41px;
+    overflow: hidden;
+}
+.mobile-number {
+    position: absolute;
+    top: 10px;
+    left: 9px;
+    line-height: 22px;
+    display: inline-block;
+    width: 125px;
+}
+.user-mobile-number {
+    position: absolute;
+    top: 14px;
+    left: 137px;
+    font-size: 11px;
+    line-height: 18px;
+    font-family: Inter;
+    text-align: right;
+    display: inline-block;
+    width: 154px;
+}
+.mobile-number-option {
+    position: absolute;
+    top: 176px;
+    left: 14px;
+    box-shadow: 0px 0px 2px rgba(23, 26, 31, 0.12), 0px 0px 1px rgba(23, 26, 31, 0.07);
+    border-radius: 6px;
+    background-color: #fff;
+    width: 346px;
+    height: 41px;
+    overflow: hidden;
+}
+.user-name-displayed {
+    position: absolute;
+    top: 12px;
+    left: 136px;
+    font-size: 11px;
+    line-height: 18px;
+    text-align: right;
+    display: inline-block;
+    width: 154px;
+}
+.name-option {
+    position: absolute;
+    top: 94px;
+    left: 14px;
+    box-shadow: 0px 0px 2px rgba(23, 26, 31, 0.12), 0px 0px 1px rgba(23, 26, 31, 0.07);
+    border-radius: 6px;
+    background-color: #fff;
+    width: 346px;
+    height: 41px;
+    overflow: hidden;
+}
+.account-settings-options {
+    position: absolute;
+    top: 121px;
+    left: 0px;
+    background-color: #fff;
+    width: 375px;
+    height: 615px;
+    color: #000;
+}
+.account-settings-header-group-child {
+    position: absolute;
+    top: 2px;
+    left: 0px;
+    box-shadow: 0px 0px 2px rgba(23, 26, 31, 0.12), 0px 4px 9px rgba(23, 26, 31, 0.04);
+    border-radius: 0px 0px 9px 9px;
+    background-color: #fff;
+    width: 375px;
+    height: 117px;
+}
+.notch-header-time {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 10px;
+    width: 69px;
+    height: 40px;
+    overflow: hidden;
+}
+.notch-header-receptionwifiba {
+    position: absolute;
+    top: 0px;
+    left: 283px;
+    border-radius: 10px;
+    width: 92px;
+    height: 40px;
+    overflow: hidden;
+}
+.header-timebatteryreception {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 375px;
+    height: 40px;
+}
+.button-navigate-back {
+    position: absolute;
+    top: 64px;
+    left: 18px;
+    width: 34px;
+    height: 34px;
+    overflow: hidden;
+}
+.button-navigate-back:hover{
+    transform:scale(1.1);
+}
+.account-settings-header-group {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 375px;
+    height: 119px;
+}
+.account-settings-title {
+    position: absolute;
+    top: 59px;
+    left: 58px;
+    line-height: 30px;
+    display: inline-block;
+    width: 273px;
+}
+.account-settings-header {
+    position: absolute;
+    top: 2px;
+    left: 0px;
+    width: 375px;
+    height: 119px;
+    text-align: center;
+    font-size: 20px;
+}
+.map-icon-default {
+    position: absolute;
+    top: calc(50% - 26px);
+    left: calc(50% - 16.02px);
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+}
+.map {
+    position: absolute;
+    top: calc(50% + 6px);
+    left: calc(50% - 12.52px);
+    line-height: 20px;
+}
+.map-button {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 93.8px;
+    height: 64px;
+    overflow: hidden;
+}
+.account {
+    position: absolute;
+    top: calc(50% + 6px);
+    left: calc(50% - 25.03px);
+    line-height: 20px;
+}
+.account-button {
+    position: absolute;
+    top: 0px;
+    left: 280.25px;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 93.8px;
+    height: 64px;
+    overflow: hidden;
+    color: #636ae8;
+}
+.cart-icon-default {
+    position: absolute;
+    top: calc(50% - 26px);
+    left: calc(50% - 15.63px);
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+}
+.coffee-cart {
+    position: absolute;
+    top: calc(50% + 6px);
+    left: calc(50% - 32.63px);
+    line-height: 20px;
+}
+.cart-button {
+    position: absolute;
+    top: 3px;
+    left: 188px;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 93px;
+    height: 58px;
+    overflow: hidden;
+}
+.discover-button {
+    position: absolute;
+    top: 0px;
+    left: 93.75px;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 93.8px;
+    height: 64px;
+    overflow: hidden;
+}
+.map-view-footer-buttons-group {
+    position: absolute;
+    top: 6px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 375px;
+    height: 64px;
+}
+.account-view-footer {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    box-shadow: 0px 0px 2px rgba(23, 26, 31, 0.12), 0px 4px 9px rgba(23, 26, 31, 0.11);
+    background-color: #fff;
+    width: 375px;
+    height: 76px;
+    font-size: 12px;
+    font-family: Inter;
+}
+.av-account-settings-screen {
+    width: 100%;
+    position: relative;
+    box-shadow: 0px 3px 6px rgba(18, 15, 40, 0.12);
+    background-color: #fff;
+    height: 812px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 14px;
+    color: #171a1f;
+    font-family: Archivo;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+/* Modal Content (Iframe Container) */
+.modal-content {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 375px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Iframe to Load External Page */
+.modal iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/* Close Button */
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Smooth Fade In Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
