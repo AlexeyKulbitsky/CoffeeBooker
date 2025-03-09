@@ -1,0 +1,97 @@
+.speechbubble-add-message-icon {
+    position: absolute;
+    top: calc(50% - 12px);
+    left: calc(50% - 157.5px);
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+}
+.message-frame {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 9px;
+    background-color: #636ae8;
+    border: 1px solid rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+    width: 343px;
+    height: 227px;
+    overflow: hidden;
+}
+.add-a-message {
+    position: absolute;
+    top: 0px;
+    left: 9px;
+    line-height: 28px;
+    display: inline-block;
+    width: 238px;
+}
+.asfasfasfasf {
+    position: absolute;
+    top: calc(50% - 10.5px);
+    left: 12px;
+    line-height: 22px;
+    border-style: hidden;
+}
+.textbox-to-write-message {
+    position: absolute;
+    top: 49.5px;
+    left: -0.5px;
+    border-radius: 9px;
+    background-color: #fff;
+    border: 1px solid #bcc1ca;
+    box-sizing: border-box;
+    width: 255px;
+    height: 60px;
+    font-size: 14px;
+    color: #171a1f;
+}
+.done {
+    position: absolute;
+    top: calc(50% - 14px);
+    left: calc(50% - 22.5px);
+    line-height: 28px;
+}
+
+.button-confirming-message {
+    position: absolute;
+    top: 132px;
+    left: 85px;
+    box-shadow: 0px 0px 2px rgba(23, 26, 31, 0.12), 0px 8px 17px rgba(23, 26, 31, 0.22);
+    border-radius: 6px;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+    width: 85px;
+    height: 40px;
+    overflow: hidden;
+    color: #636ae8;
+}
+.button-confirming-message:hover{
+    transform:scale(1.03);
+    cursor:pointer;
+}
+.message-group {
+    position: absolute;
+    top: 29px;
+    left: 44px;
+    width: 254px;
+    height: 172px;
+}
+.popup-add-message-to-cafe {
+    width: 100%;
+    position: relative;
+    box-shadow: 0px 3px 6px rgba(18, 15, 40, 0.12);
+    background-color: #fff;
+    height: 226px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 18px;
+    color: #fff;
+    font-family: Inter;
+}
+
+body{
+    width:343px;
+    background: transparent !important;
+}
