@@ -1,0 +1,197 @@
+.your-cart-is {
+    position: absolute;
+    top: 3px;
+    left: 47px;
+    line-height: 30px;
+    display: inline-block;
+    width: 191px;
+}
+.cart-empty-message-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 36px;
+    height: 36px;
+    overflow: hidden;
+}
+.cart-empty-message-group {
+    position: absolute;
+    top: 167px;
+    left: 60px;
+    width: 238px;
+    height: 36px;
+}
+.cart-empty-message {
+    position: absolute;
+    top: 204px;
+    left: 10px;
+    box-shadow: 0px 0px 2px rgba(23, 26, 31, 0.12), 0px 0px 1px rgba(23, 26, 31, 0.07);
+    border-radius: 6px;
+    background-color: #fff;
+    width: 356px;
+    height: 369px;
+}
+.cafe-menu-header-group-child {
+    position: absolute;
+    top: 2px;
+    left: 0px;
+    box-shadow: 0px 0px 2px rgba(23, 26, 31, 0.12), 0px 4px 9px rgba(23, 26, 31, 0.04);
+    border-radius: 0px 0px 9px 9px;
+    background-color: #fff;
+    width: 375px;
+    height: 117px;
+}
+.image-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 10px;
+    width: 69px;
+    height: 40px;
+    overflow: hidden;
+}
+.image-icon1 {
+    position: absolute;
+    top: 0px;
+    left: 283px;
+    border-radius: 10px;
+    width: 92px;
+    height: 40px;
+    overflow: hidden;
+}
+.header-timebatteryreception {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 375px;
+    height: 40px;
+}
+.my-cart {
+    position: absolute;
+    top: 65px;
+    left: 52px;
+    line-height: 30px;
+    display: inline-block;
+    width: 273px;
+}
+.coffee-cart-header {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 375px;
+    height: 119px;
+}
+.map-icon-default {
+    position: absolute;
+    top: calc(50% - 26px);
+    left: calc(50% - 16.02px);
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+}
+.map {
+    position: absolute;
+    top: calc(50% + 6px);
+    left: calc(50% - 12.52px);
+    line-height: 20px;
+}
+.map-button {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 93.8px;
+    height: 64px;
+    overflow: hidden;
+}
+.account {
+    position: absolute;
+    top: calc(50% + 6px);
+    left: calc(50% - 24.03px);
+    line-height: 20px;
+}
+.account-button {
+    position: absolute;
+    top: 0px;
+    left: 280.5px;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 93.8px;
+    height: 64px;
+    overflow: hidden;
+}
+.cart-icon-selected {
+    position: absolute;
+    top: calc(50% - 26px);
+    left: calc(50% - 16.13px);
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+}
+.coffee-cart {
+    position: absolute;
+    top: calc(50% + 6px);
+    left: calc(50% - 34.13px);
+    line-height: 20px;
+}
+.cart-button {
+    position: absolute;
+    top: 3px;
+    left: 188px;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 93px;
+    height: 58px;
+    overflow: hidden;
+    color: #636ae8;
+}
+.discover {
+    position: absolute;
+    top: calc(50% + 6px);
+    left: calc(50% - 25.03px);
+    line-height: 20px;
+}
+.discover-button {
+    position: absolute;
+    top: 0px;
+    left: 93.75px;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 93.8px;
+    height: 64px;
+    overflow: hidden;
+}
+.map-view-footer-buttons-group {
+    position: absolute;
+    top: 6px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 375px;
+    height: 64px;
+}
+.my-cart-view-empty-footer {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    box-shadow: 0px 0px 2px rgba(23, 26, 31, 0.12), 0px 4px 9px rgba(23, 26, 31, 0.11);
+    background-color: #fff;
+    width: 375px;
+    height: 76px;
+    text-align: left;
+    font-size: 12px;
+    font-family: Inter;
+}
+.cart-view-empty {
+    width: 100%;
+    position: relative;
+    box-shadow: 0px 3px 6px rgba(18, 15, 40, 0.12);
+    background-color: #fff;
+    height: 812px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 20px;
+    color: #171a1f;
+    font-family: Archivo;
+}
+
