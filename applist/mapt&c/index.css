@@ -1,0 +1,219 @@
+body {
+    margin: 0;
+    line-height: normal;
+    width:375px;
+}
+.terms-and-conditions {
+    margin: 0;
+}
+.terms-conditions-container {
+    position: absolute;
+    top: 10px;
+    left: 14px;
+    line-height: 15px;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 314px;
+    height: 567px; 
+    overflow-y: auto; 
+    -webkit-overflow-scrolling: touch; 
+}
+.terms-conditions-container::-webkit-scrollbar {
+    display: none;
+}
+.terms-conditions-frame {
+    position: absolute;
+    top: 19px;
+    left: 16px;
+    box-shadow: 0px 0px 2px rgba(23, 26, 31, 0.12), 0px 4px 9px rgba(23, 26, 31, 0.11);
+    border-radius: 6px;
+    background-color: #fff;
+    width: 342px;
+    height: 577px;
+    overflow: hidden;
+}
+.terms-conditions-group {
+    position: absolute;
+    top: 121px;
+    left: 0px;
+    background-color: #fff;
+    width: 375px;
+    height: 615px;
+}
+.terms-conditions-header-grou-child {
+    position: absolute;
+    top: 2px;
+    left: 0px;
+    box-shadow: 0px 0px 2px rgba(23, 26, 31, 0.12), 0px 4px 9px rgba(23, 26, 31, 0.04);
+    border-radius: 0px 0px 9px 9px;
+    background-color: #fff;
+    width: 375px;
+    height: 117px;
+}
+.notch-header-time {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 10px;
+    width: 69px;
+    height: 40px;
+    overflow: hidden;
+}
+.notch-header-receptionwifiba {
+    position: absolute;
+    top: 0px;
+    left: 283px;
+    border-radius: 10px;
+    width: 92px;
+    height: 40px;
+    overflow: hidden;
+}
+.header-timebatteryreception {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 375px;
+    height: 40px;
+}
+.button-navigate-back {
+    position: absolute;
+    top: 64px;
+    left: 18px;
+    width: 34px;
+    height: 34px;
+    overflow: hidden;
+}
+.button-navigate-back:hover{
+    transform: scale(1.1);
+}
+.terms-conditions-header-grou {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 375px;
+    height: 119px;
+}
+.terms-conditions {
+    position: absolute;
+    top: 59px;
+    left: 58px;
+    line-height: 30px;
+    display: inline-block;
+    width: 273px;
+}
+.terms-conditions-header {
+    position: absolute;
+    top: 2px;
+    left: 0px;
+    width: 375px;
+    height: 119px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Archivo;
+}
+.map-icon-default {
+    position: absolute;
+    top: calc(50% - 26px);
+    left: calc(50% - 16.02px);
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+}
+.map {
+    position: absolute;
+    top: calc(50% + 6px);
+    left: calc(50% - 12.52px);
+    line-height: 20px;
+}
+.map-button {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 93.8px;
+    height: 64px;
+    overflow: hidden;
+}
+.account {
+    position: absolute;
+    top: calc(50% + 6px);
+    left: calc(50% - 25.03px);
+    line-height: 20px;
+}
+.account-button {
+    position: absolute;
+    top: 0px;
+    left: 280.25px;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 93.8px;
+    height: 64px;
+    overflow: hidden;
+    color: #636ae8;
+}
+.cart-icon-default {
+    position: absolute;
+    top: calc(50% - 26px);
+    left: calc(50% - 15.63px);
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+}
+.coffee-cart {
+    position: absolute;
+    top: calc(50% + 6px);
+    left: calc(50% - 32.63px);
+    line-height: 20px;
+}
+.cart-button {
+    position: absolute;
+    top: 3px;
+    left: 188px;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 93px;
+    height: 58px;
+    overflow: hidden;
+}
+.discover-button {
+    position: absolute;
+    top: 0px;
+    left: 93.75px;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 93.8px;
+    height: 64px;
+    overflow: hidden;
+}
+.map-view-footer-buttons-group {
+    position: absolute;
+    top: 6px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 375px;
+    height: 64px;
+}
+.terms-conditions-footer {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    box-shadow: 0px 0px 2px rgba(23, 26, 31, 0.12), 0px 4px 9px rgba(23, 26, 31, 0.11);
+    background-color: #fff;
+    width: 375px;
+    height: 76px;
+    font-size: 12px;
+}
+.account-settings-terms-con {
+    width: 100%;
+    position: relative;
+    box-shadow: 0px 3px 6px rgba(18, 15, 40, 0.12);
+    background-color: #fff;
+    height: 812px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 11px;
+    color: #171a1f;
+    font-family: Inter;
+}
+

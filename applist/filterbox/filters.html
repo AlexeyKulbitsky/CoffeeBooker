@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="initial-scale=1, width=device-width">
+  	
+  	<link rel="stylesheet"  href="./index.css" />
+      <link rel="stylesheet"  href="../universalcss.css" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@700&display=swap" />
+  	
+  	
+  	
+</head>
+<body>
+  	
+  	<div class="coffeecafe-filters-screen">
+    		<div class="button-apply-filters">
+      			<div class="apply-filters">Apply Filters</div>
+    		</div>
+    		<div class="vegan">
+      			<b class="vegan-title">Vegan</b>
+      			<img id="pushNotificationToggle" class="switch-off-icon" alt="" src="../assets/accountsettings/Switch Off.svg">
+      			
+    		</div>
+    		<div class="halaal">
+      			<b class="vegan-title">Halaal</b>
+      			<img id="pushNotificationToggle1" class="switch-off-icon" alt="" src="../assets/accountsettings/Switch Off.svg">
+      			
+    		</div>
+    		<div class="speciality-cafes">
+				<img id="pushNotificationToggle2" class="switch-off-icon" alt="" src="../assets/accountsettings/Switch Off.svg">
+      			
+      			<b class="vegan-title">Speciality Cafes</b>
+    		</div>
+    		<div class="milk-substitutes">
+      			<b class="vegan-title">Milk Substitutes</b>
+      			<div class="dropdown-milk-substitutes">
+        				<div class="rectangle">
+        				</div>
+        				<div class="select-options">Select options</div>
+        				<img class="up-icon" alt="" src="../assets/filters/Up Icon.svg" onclick="openModal('../milktypes/milksubs.html', '../beanfilter/beansubs.html')" 
+						>
+        				
+      			</div>
+    		</div>
+    		<div class="bean-substitutes">
+      			<b class="vegan-title">Bean Substitutes</b>
+      			<div class="dropdown-milk-substitutes">
+        				<div class="rectangle">
+        				</div>
+        				<div class="select-options">Select options</div>
+        				<img class="up-icon" alt="" src="../assets/filters/Up Icon.svg" onclick="openModal('../beanfilter/beansubs.html', '../beanfilter/beansubs.html')" 
+						>
+        				
+      			</div>
+    		</div>
+    		<div class="bean-types">
+      			<b class="vegan-title">Bean Types</b>
+      			<div class="dropdown-bean-types">
+        				<div class="rectangle">
+        				</div>
+        				<div class="select-options">Select options</div>
+        				<img class="up-icon" alt="" src="../assets/filters/Up Icon.svg" onclick="openModal('../beantypes/beantypes.html', '../beantypes/beantypes.html')" 
+						>
+        				
+      			</div>
+    		</div>
+    		<div class="drink-types">
+      			<b class="vegan-title">Drink Types</b>
+      			<div class="dropdown-milk-substitutes">
+        				<div class="rectangle">
+        				</div>
+        				<div class="select-options">Select options</div>
+        				<img class="up-icon" alt="" src="../assets/filters/Up Icon.svg" onclick="openModal('../drinktypes/drinktypes.html', '../drinktypes/drinktypes.html')" 
+						>
+        				
+      			</div>
+    		</div>
+    		<div class="cold-coffee">
+      			<b class="vegan-title">Cold Coffee</b>
+      			<img id="pushNotificationToggle3" class="switch-off-icon" alt="" src="../assets/accountsettings/Switch Off.svg">
+      			
+    		</div>
+    		<div class="hot-coffee">
+      			<b class="vegan-title">Hot Coffee</b>
+      			<img id="pushNotificationToggle4" class="switch-off-icon" alt="" src="../assets/accountsettings/Switch Off.svg">
+      			
+    		</div>
+    		<div class="cafe-ratings">
+      			<img class="cafe-ratings-design" alt="" src="../assets/filters/rating design.png">
+      			
+      			<b class="cafe-rating-title"></b>
+    		</div>
+    		<div class="walking-distance-to-cafe">
+      			<div class="walking-distance-design">
+        				<div class="min-max-time-slider-box">
+          					<div class="min">60 min</div>
+          					<div class="min1">0 min</div>
+        				</div>
+        				<div class="walking-distance-slider">
+          					<div class="frame">
+            						<div class="rectangle4">
+            						</div>
+          					</div>
+          					<div class="ellipse-icon">
+          					</div>
+        				</div>
+      			</div>
+      			<b class="walking-distance-to">Walking Distance to Cafe</b>
+    		</div>
+    		<div class="distance-to-cafe">
+      			<div class="distance-design">
+        				<div class="min-max-distance-slider-box">
+          					<div class="min">100 km</div>
+          					<div class="min1">0 km</div>
+        				</div>
+        				<div class="distance-to-slder">
+          					<div class="frame">
+            						<div class="rectangle5">
+            						</div>
+          					</div>
+          					<div class="ellipse-icon1">
+          					</div>
+        				</div>
+      			</div>
+      			<b class="distance-to-cafe1">Distance to Cafe</b>
+    		</div>
+    		<div class="filter-screen-header">
+      			<div class="filter-box-group">
+        				<div class="filter-box-group-child">
+        				</div>
+        				
+        				
+        				
+      			</div>
+      			<b class="coffee-filters-title">Coffee Filters</b>
+    		</div>
+  	</div>
+  	
+  	<div id="modalContainer" class="modal">
+		<div class="modal-content">
+			<iframe id="modalFrame" src="" frameborder="0"></iframe>
+			<button class="save-btn" onclick="closeModal()">Save</button>
+		</div>
+	</div>
+  	
+	<script>
+		function openModal(pageUrl) {
+			document.getElementById("modalFrame").src = pageUrl;
+			document.getElementById("modalContainer").style.display = "flex";
+		}
+		
+		function closeModal() {
+			document.getElementById("modalContainer").style.display = "none";
+			document.getElementById("modalFrame").src = ""; 
+		}
+
+		document.addEventListener("DOMContentLoaded", function () {
+    const pushNotificationIcons = document.querySelectorAll("[id^='pushNotification']");
+
+    pushNotificationIcons.forEach(icon => {
+        icon.addEventListener("click", function () {
+            let currentSrc = icon.getAttribute("src");
+
+            if (currentSrc.includes("Switch Off.svg")) {
+                icon.setAttribute("src", "../assets/accountsettings/Switch On.svg");
+            } else {
+                icon.setAttribute("src", "../assets/accountsettings/Switch Off.svg");
+            }
+        });
+    });
+});
+
+		</script>
+		
+</body>
+</html>

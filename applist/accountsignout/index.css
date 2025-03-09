@@ -1,0 +1,92 @@
+.sign-out-title {
+    position: absolute;
+    top: 35px;
+    left: 146px;
+    font-size: 20px;
+    text-decoration: underline;
+    line-height: 30px;
+    display: inline-block;
+    width: 83px;
+}
+.yes {
+    position: absolute;
+    top: calc(50% - 14px);
+    left: calc(50% - 15.5px);
+    line-height: 28px;
+}
+.button-yes {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    box-shadow: 0px 0px 2px rgba(23, 26, 31, 0.12), 0px 8px 17px rgba(23, 26, 31, 0.22);
+    border-radius: 9px;
+    background-color: #de3b40;
+    border: 1px solid rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+    width: 116px;
+    height: 40px;
+    overflow: hidden;
+}
+.no {
+    position: absolute;
+    top: calc(50% - 14px);
+    left: calc(50% - 12px);
+    line-height: 28px;
+}
+.button-no {
+    position: absolute;
+    bottom: 0px;
+    left: 195px;
+    box-shadow: 0px 0px 2px rgba(23, 26, 31, 0.12), 0px 8px 17px rgba(23, 26, 31, 0.22);
+    border-radius: 9px;
+    background-color: #636ae8;
+    border: 1px solid rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+    width: 116px;
+    height: 40px;
+    overflow: hidden;
+}
+.buttons-confirmation-group {
+    position: absolute;
+    bottom: 45px;
+    left: 32px;
+    width: 311px;
+    height: 40px;
+    color: #fff;
+    font-family: Inter;
+}
+.sign-out-message {
+    position: absolute;
+    top: 153px;
+    left: 79px;
+    line-height: 28px;
+    display: inline-block;
+    color: #de3b40;
+    text-align: center;
+    width: 219px;
+    height: 64px;
+}
+.sign-out-frame {
+    position: absolute;
+    top: 0px;
+    left: -2px;
+    box-shadow: 0px 0px 2px rgba(23, 26, 31, 0.12), 0px 0px 1px rgba(23, 26, 31, 0.07);
+    border-radius: 9px;
+    background-color: #fff;
+    width: 375px;
+    height: 379px;
+    overflow: hidden;
+}
+.popup-message-sign-out {
+    width: 100%;
+    position: relative;
+    box-shadow: 0px 3px 6px rgba(18, 15, 40, 0.12);
+    background-color: #fff;
+    height: 379px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 18px;
+    color: #000;
+    font-family: Archivo;
+}
+

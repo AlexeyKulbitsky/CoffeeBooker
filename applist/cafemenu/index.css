@@ -1,0 +1,559 @@
+.map-icon-selected {
+    position: absolute;
+    top: calc(50% - 26px);
+    left: calc(50% - 16.02px);
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+}
+.map {
+    position: absolute;
+    top: calc(50% + 6px);
+    left: calc(50% - 13.02px);
+    line-height: 20px;
+}
+.map-button {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 93.8px;
+    height: 64px;
+    overflow: hidden;
+    color: #636ae8;
+}
+.account {
+    position: absolute;
+    top: calc(50% + 6px);
+    left: calc(50% - 24.03px);
+    line-height: 20px;
+}
+.account-button {
+    position: absolute;
+    top: 0px;
+    left: 280.5px;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 93.8px;
+    height: 64px;
+    overflow: hidden;
+}
+.cart-icon-default {
+    position: absolute;
+    top: calc(50% - 26px);
+    left: calc(50% - 15.63px);
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+}
+.coffee-cart {
+    position: absolute;
+    top: calc(50% + 6px);
+    left: calc(50% - 32.63px);
+    line-height: 20px;
+}
+.cart-button {
+    position: absolute;
+    top: 3px;
+    left: 188px;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 93px;
+    height: 58px;
+    overflow: hidden;
+}
+.discover {
+    position: absolute;
+    top: calc(50% + 6px);
+    left: calc(50% - 25.03px);
+    line-height: 20px;
+}
+.discover-button {
+    position: absolute;
+    top: 0px;
+    left: 93.75px;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 93.8px;
+    height: 64px;
+    overflow: hidden;
+}
+.map-view-footer-buttons-group {
+    position: absolute;
+    top: 6px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 375px;
+    height: 64px;
+}
+.cafe-menu-view-footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    box-shadow: 0px 0px 2px rgba(23, 26, 31, 0.12), 0px 4px 9px rgba(23, 26, 31, 0.11);
+    background-color: #fff;
+    width: 375px;
+    height: 76px;
+    font-size: 12px;
+    z-index: 1000;
+}
+.product-details-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0px 0px 2px rgba(23, 26, 31, 0.12), 0px 4px 9px rgba(23, 26, 31, 0.13);
+    border-radius: 9px;
+    background-color: #fff;
+    width: 376px;
+    height: 130px;
+}
+.product-title {
+    position: absolute;
+    top: 15px;
+    left: 19px;
+    line-height: 22px;
+    display: inline-block;
+    width: 217px;
+}
+.product-description {
+    position: absolute;
+    top: 43px;
+    left: 18px;
+    font-size: 11px;
+    line-height: 18px;
+    display: inline-block;
+    width: 212px;
+    height: 44px;
+}
+.cafe-menu-image-2 {
+    position: absolute;
+    top: 0px;
+    left: 252px;
+    border-radius: 0px 9px 9px 0px;
+    width: 124px;
+    height: 130px;
+    object-fit: cover;
+}
+.product-details {
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    width: 376px;
+    height: 130px;
+}
+.size-calories {
+    position: absolute;
+    top: 0px;
+    left: 92px;
+    line-height: 22px;
+    display: inline-block;
+    width: 126px;
+}
+.rating-icons-group {
+    position: absolute;
+    top: 3px;
+    left: 252px;
+    width: 85px;
+    height: 16px;
+}
+.price {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    line-height: 22px;
+    display: inline-block;
+    width: 44px;
+}
+.product-priceratingsizecalo {
+    position: absolute;
+    top: 133px;
+    left: 18px;
+    width: 337px;
+    height: 22px;
+    text-align: center;
+    color: #636ae8;
+}
+.cold-drinks-title {
+    position: absolute;
+    top: 0px;
+    left: 18px;
+    font-size: 18px;
+    line-height: 28px;
+}
+.cold-drinks-section {
+    position: absolute;
+    top: 863px;
+    left: 0px;
+    width: 376px;
+    height: 170px;
+}
+.hot-drinks-section {
+    position: absolute;
+    top: 673px;
+    left: 0px;
+    width: 376px;
+    height: 170px;
+}
+.specials-title {
+    position: absolute;
+    top: 0px;
+    left: 17px;
+    line-height: 28px;
+}
+.product-details-inner {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0px 0px 2px rgba(23, 26, 31, 0.12), 0px 4px 9px rgba(23, 26, 31, 0.13);
+    border-radius: 9px;
+    background-color: #fff;
+    width: 375px;
+    height: 130px;
+}
+.cafe-menu-image-1 {
+    position: absolute;
+    top: 0px;
+    left: 253px;
+    border-radius: 0px 9px 9px 0px;
+    width: 123px;
+    height: 130px;
+    object-fit: cover;
+}
+.product-details2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 376px;
+    height: 130px;
+}
+.product-priceratingsizecalo2 {
+    position: absolute;
+    top: 93px;
+    left: 19px;
+    width: 337px;
+    height: 22px;
+    text-align: center;
+    color: #636ae8;
+}
+.specials-section-group {
+    position: absolute;
+    top: 41px;
+    left: 0px;
+    width: 376px;
+    height: 130px;
+    font-size: 14px;
+}
+.specials-section {
+    position: absolute;
+    top: 482px;
+    left: 0px;
+    width: 376px;
+    height: 171px;
+    font-size: 18px;
+}
+.cafe-title-card-image-1 {
+    position: absolute;
+    top: 0px;
+    left: 157px;
+    width: 375px;
+    height: 221px;
+    object-fit: cover;
+}
+.oval-2 {
+    position: absolute;
+    top: 203px;
+    left: 0px;
+    border-radius: 50%;
+    background-color: #fff;
+    width: 682px;
+    height: 60px;
+}
+.shop-info {
+    position: absolute;
+    top: calc(50% - 9px);
+    left: calc(50% - 25px);
+    line-height: 18px;
+}
+.button-shop-info {
+    position: absolute;
+    top: 264px;
+    left: 450px;
+    box-shadow: 0px 0px 2px rgba(23, 26, 31, 0.12), 0px 4px 9px rgba(23, 26, 31, 0.14);
+    border-radius: 4px;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+    width: 67px;
+    height: 18px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 11px;
+}
+.walk-icon-distance-to {
+    position: absolute;
+    top: 0px;
+    left: -22px;
+    width: 70px;
+    height: 16px;
+}
+.min {
+    position: absolute;
+    top: 0px;
+    left: 14px;
+    line-height: 16px;
+    display: inline-block;
+    width: 57px;
+}
+.button-distance-to {
+    position: absolute;
+    top: 265px;
+    left: 352px;
+    width: 71px;
+    height: 16px;
+}
+.m {
+    position: absolute;
+    top: 0px;
+    left: 12px;
+    line-height: 16px;
+    display: inline-block;
+    width: 60px;
+}
+.distance-from-gps-location {
+    position: absolute;
+    top: 265px;
+    left: 267px;
+    width: 72px;
+    height: 16px;
+    color: #171a1f;
+}
+.rating-icons-group3 {
+    position: absolute;
+    top: 265px;
+    left: 174px;
+    width: 85px;
+    height: 16px;
+}
+.cafe-brand-icon {
+    position: absolute;
+    top: 145px;
+    left: 313px;
+    width: 64px;
+    height: 64px;
+}
+.cafe-title {
+    position: absolute;
+    top: 218px;
+    left: 180px;
+    font-size: 20px;
+    line-height: 30px;
+    display: inline-block;
+    font-family: Archivo;
+    color: #171a1f;
+    width: 343px;
+    height: 28px;
+}
+.cafe-title-card {
+    position: absolute;
+    top: 114px;
+    left: -157px;
+    width: 682px;
+    height: 282px;
+    text-align: center;
+    font-size: 10px;
+    color: #636ae8;
+}
+.cold-drinks {
+    position: absolute;
+    top: calc(50% - 11px);
+    left: calc(50% - 38.51px);
+    line-height: 22px;
+}
+.button-cold-drinks-navigation {
+    position: absolute;
+    top: 0px;
+    left: 241.17px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 133.1px;
+    height: 50px;
+    overflow: hidden;
+}
+.hot-drinks {
+    position: absolute;
+    top: calc(50% - 11px);
+    left: calc(50% - 35.01px);
+    line-height: 22px;
+}
+.button-hot-drinks-navigation {
+    position: absolute;
+    top: 0px;
+    left: 115.08px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 126.1px;
+    height: 50px;
+    overflow: hidden;
+}
+.rectangle {
+    position: absolute;
+    width: 100%;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: #636ae8;
+    height: 4px;
+}
+.specials {
+    position: absolute;
+    top: calc(50% - 11px);
+    left: calc(50% - 29.51px);
+    line-height: 22px;
+}
+.button-specials-navigation {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 115.1px;
+    height: 50px;
+    overflow: hidden;
+    color: #636ae8;
+}
+.cafe-menu-section-navigation-b {
+    position: absolute;
+    top: 412px;
+    left: 1px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 374px;
+    height: 50px;
+    color: #565e6c;
+}
+.cafe-menu-header-group-child {
+    position: absolute;
+    top: 2px;
+    left: 0px;
+    box-shadow: 0px 0px 2px rgba(23, 26, 31, 0.12), 0px 4px 9px rgba(23, 26, 31, 0.04);
+    border-radius: 0px 0px 9px 9px;
+    background-color: #fff;
+    width: 375px;
+    height: 117px;
+}
+.image-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 10px;
+    width: 69px;
+    height: 40px;
+    overflow: hidden;
+}
+.image-icon1 {
+    position: absolute;
+    top: 0px;
+    left: 283px;
+    border-radius: 10px;
+    width: 92px;
+    height: 40px;
+    overflow: hidden;
+}
+.header-timebatteryreception {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 375px;
+    height: 40px;
+}
+.search {
+    position: absolute;
+    top: calc(50% - 12.5px);
+    left: 34px;
+    line-height: 26px;
+}
+.search-icon {
+    position: absolute;
+    top: calc(50% - 7.5px);
+    left: 12px;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+}
+.search-bar {
+    position: absolute;
+    top: 63px;
+    left: 78px;
+    border-radius: 9px;
+    background-color: #fff;
+    border: 1px solid #bcc1ca;
+    box-sizing: border-box;
+    width: 220px;
+    height: 39px;
+    opacity: 0.79;
+}
+.button-navigate-back {
+    position: absolute;
+    top: 64px;
+    left: 18px;
+    width: 34px;
+    height: 34px;
+    overflow: hidden;
+}
+.button-navigate-back:hover{
+    transform:scale(1.1)
+}
+.text {
+    position: absolute;
+    top: calc(50% - 14px);
+    left: calc(50% + 16px);
+    line-height: 28px;
+}
+.heart-icon {
+    position: absolute;
+    top: calc(50% - 16px);
+    left: calc(50% - 16px);
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+}
+.button-favourite {
+    position: absolute;
+    top: 55px;
+    left: 310px;
+    border-radius: 6px;
+    background-color: rgba(99, 106, 232, 0);
+    border: 1px solid rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+    width: 60px;
+    height: 52px;
+    overflow: hidden;
+    font-size: 18px;
+    color: #fff;
+}
+.cafe-menu-header-group {
+    position: fixed;
+    top: -5px;
+    left: 0px;
+    width: 375px;
+    height: 125px;
+}
+.cafe-menu-header {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 375px;
+    height: 119px;
+    font-size: 16px;
+    color: #bcc1ca;
+}
+.cafe-menu-screen {
+    width: 100%;
+    position: relative;
+    box-shadow: 0px 3px 6px rgba(18, 15, 40, 0.12);
+    background-color: #fff;
+    height: 1134px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 14px;
+    color: #171a1f;
+    font-family: Inter;
+}
+
