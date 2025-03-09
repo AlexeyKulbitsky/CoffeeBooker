@@ -22,11 +22,11 @@
       <div class="textbox-email">
          <b class="email">Email</b>
          <div class="textfield1">
-            <input type="email" class="enter-at-least" placeholder="example.email@gmail.com">
+            <input type="email" class="enter-at-least" placeholder="example.email@gmail.com" id="email">
          </div>
          <div class="textbox-email-child"></div>
       </div>
-      <button class="button-login">
+      <button class="button-login" id="login-button">
          <div class="log-in">Log In</div>
       </button>
       <div class="login-title">Log In</div>
@@ -52,6 +52,36 @@
             passwordInput.type = "password";
             visibilityIcon.src = "../assets/registration/visibilityoff.png"; // Change to hidden icon
          }
+      });
+      document.getElementById("login-button").addEventListener("click", function() {
+
+         const url = 'http://127.0.0.1:5000/login'; // Replace with your API endpoint
+          const payload = {
+            email: document.getElementById("email").value,
+            password: document.getElementById("password-input").value,
+          };
+
+         fetch(url, {
+              method: 'POST',
+              headers: {
+                'Content-Type': 'application/json', // Specify the content type as JSON
+              },
+              body: JSON.stringify(payload), // Convert the payload to a JSON string
+            })
+              .then(response => {
+                if (!response.ok) {
+                  throw new Error('Network response was not ok');
+                }
+                return response.json(); // Parse the JSON response
+              })
+              .then(data => {
+                console.log('Success:', data); // Handle the response data
+                sessionStorage.setItem('token', data.access_token)
+                window.location.href = "../mapview(tbd)/mapview.html";
+              })
+              .catch(error => {
+                console.error('Error:', error); // Handle errors
+              });
       });
    </script>
 </body>

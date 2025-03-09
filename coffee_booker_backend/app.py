@@ -1,4 +1,7 @@
 from flask import Flask, jsonify, request
+from flask_sqlalchemy import SQLAlchemy
+from flask_cors import CORS
+
 from flask_jwt_extended import (
     JWTManager, create_access_token, jwt_required, get_jwt_identity
 )
@@ -6,13 +9,31 @@ import bcrypt
 
 # Initialize the Flask app
 app = Flask(__name__)
+CORS(app)  # Enable CORS for all routes
 
 # Configure JWT
 app.config["JWT_SECRET_KEY"] = "super-secret-key"  # Change this to a secure key in production
 jwt = JWTManager(app)
 
+# Configure SQLAlchemy
+app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///cafe.db"  # SQLite database file
+app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
+db = SQLAlchemy(app)
+
+# User model
+class User(db.Model):
+    user_id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(80), nullable=False)
+    email = db.Column(db.String(120), unique=True, nullable=False)
+    phone_number = db.Column(db.String(120))
+    password_hash = db.Column(db.String(120), nullable=False)
+    address = db.Column(db.String(120))
+    payment_method = db.Column(db.String(120))
+
+with app.app_context():
+    db.create_all()  # Create tables only if they don't exist
+
 # Sample data (replace with a database later)
-users = []  # Store registered users
 cafes = [
     {"id": 1, "name": "Cafe A", "location": "London"},
     {"id": 2, "name": "Cafe B", "location": "Paris"},
@@ -40,19 +61,16 @@ def register():
         return jsonify({"error": "Username and password are required"}), 400
 
     # Check if the user already exists
-    if any(user["username"] == data["username"] for user in users):
+    if User.query.filter_by(email=data["email"]).first():
         return jsonify({"error": "Username already exists"}), 400
 
     # Hash the password
     hashed_password = hash_password(data["password"])
 
     # Create a new user
-    new_user = {
-        "id": len(users) + 1,
-        "username": data["username"],
-        "password": hashed_password,
-    }
-    users.append(new_user)
+    new_user = User(name=data["username"], password_hash=hashed_password, email=data["email"])
+    db.session.add(new_user)  # Add the new user to the session
+    db.session.commit()  # Commit the transaction to save the user
 
     return jsonify({"message": "User registered successfully"}), 201
 
@@ -60,16 +78,16 @@ def register():
 @app.route("/login", methods=["POST"])
 def login():
     data = request.get_json()
-    if not data or "username" not in data or "password" not in data:
-        return jsonify({"error": "Username and password are required"}), 400
+    if not data or "email" not in data or "password" not in data:
+        return jsonify({"error": "Email and password are required"}), 400
 
     # Find the user
-    user = next((user for user in users if user["username"] == data["username"]), None)
-    if not user or not check_password(user["password"], data["password"]):
+    user = User.query.filter_by(email=data["email"]).first()
+    if not user or not check_password(user.password_hash, data["password"]):
         return jsonify({"error": "Invalid username or password"}), 401
 
     # Generate a JWT token (convert user ID to string)
-    access_token = create_access_token(identity=str(user["id"]))  # Convert to string
+    access_token = create_access_token(identity=str(user.user_id))  # Convert to string
     return jsonify({"access_token": access_token}), 200
 
 # Protected route: Get all cafes

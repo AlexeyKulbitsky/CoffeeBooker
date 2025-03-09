@@ -24,12 +24,12 @@
   <div class="registration-v2">
     <div class="text-20201-parent">
       <div class="text-20201">Been here before?</div>
-      <a href="/login_page/login.html" class="text-20204">Log in</a>
+      <a href="../login_page/login.html" class="text-20204">Log in</a>
     </div>
     <div class="textbox-725-parent">
         <div class="textbox-725">
             <div class="textfield">
-                <input type="password" class="enter-at-least" placeholder="Enter at least 8+ characters">
+                <input type="password" class="enter-at-least" placeholder="Enter at least 8+ characters" id="password">
                 <button class="button visibility-toggle">
                   <img class="icon" alt="Toggle Password Visibility" src="../assets/registration/visibilityoff.png">
                 </button>
@@ -39,16 +39,16 @@
           </div>
           <div class="textbox-726">
             <div class="textfield">
-              <input type="email" class="enter-at-least" placeholder="example.email@gmail.com">
+              <input type="email" class="enter-at-least" placeholder="example.email@gmail.com" id="email">
             </div>
             <b class="password">Email</b>
           </div>
-      <button class="button-2997">
+      <button class="button-2997" id="sign-up-button">
         <div class="sign-up">Sign Up</div>
       </button>
       <div class="textbox-727">
         <div class="textfield">
-          <input type="text" class="enter-at-least" placeholder="John Doe">
+          <input type="text" class="enter-at-least" placeholder="John Doe" id="username">
         </div>
         <b class="password">Full name</b>
       </div>
@@ -94,6 +94,36 @@
   );
 };
     };
+
+    document.getElementById("sign-up-button").addEventListener("click", function() {
+         const url = 'http://127.0.0.1:5000/register'; // Replace with your API endpoint
+          const payload = {
+            username: document.getElementById("username").value,
+            email: document.getElementById("email").value,
+            password: document.getElementById("password").value,
+          };
+
+          fetch(url, {
+              method: 'POST',
+              headers: {
+                'Content-Type': 'application/json', // Specify the content type as JSON
+              },
+              body: JSON.stringify(payload), // Convert the payload to a JSON string
+            })
+              .then(response => {
+                if (!response.ok) {
+                  throw new Error('Network response was not ok');
+                }
+                return response.json(); // Parse the JSON response
+              })
+              .then(data => {
+                console.log('Success:', data); // Handle the response data
+                //window.location.href = "../mapview(tbd)/mapview.html";
+              })
+              .catch(error => {
+                console.error('Error:', error); // Handle errors
+              });
+      });
   </script>
 
   
