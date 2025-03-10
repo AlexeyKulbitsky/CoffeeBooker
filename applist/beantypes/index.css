@@ -1,0 +1,209 @@
+.rectangle {
+    position: absolute;
+    top: 5px;
+    left: 0px;
+    border-radius: 2px;
+    background-color: #fff;
+    border: 1px solid #565e6c;
+    box-sizing: border-box;
+    width: 18px;
+    height: 18px;
+}
+.ellipse-selection {
+    position: absolute;
+    top: 7px;
+    left: 2px;
+    border-radius: 50%;
+    background-color: #636ae8;
+    border: 1px solid rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+    width: 14px;
+    height: 14px;
+    display: none;
+}
+.frame {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 62px;
+    height: 28px;
+}
+.checkbox-1 {
+    position: absolute;
+    top: 10px;
+    left: 13px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 62px;
+    height: 28px;
+}
+.chai {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0px 0px 2px rgba(23, 26, 31, 0.12), 0px 0px 1px rgba(23, 26, 31, 0.07);
+    border-radius: 6px;
+    background-color: #fff;
+    width: 292px;
+    height: 48px;
+    overflow: hidden;
+}
+.frame1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 84px;
+    height: 28px;
+}
+.checkbox-11 {
+    position: absolute;
+    top: 10px;
+    left: 13px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 84px;
+    height: 28px;
+}
+.matcha {
+    position: absolute;
+    top: 63px;
+    left: 0px;
+    box-shadow: 0px 0px 2px rgba(23, 26, 31, 0.12), 0px 0px 1px rgba(23, 26, 31, 0.07);
+    border-radius: 6px;
+    background-color: #fff;
+    width: 292px;
+    height: 48px;
+    overflow: hidden;
+}
+.frame2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 111px;
+    height: 28px;
+}
+.checkbox-12 {
+    position: absolute;
+    top: 10px;
+    left: 13px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 111px;
+    height: 28px;
+}
+.kombucha {
+    position: absolute;
+    top: 126px;
+    left: 0px;
+    box-shadow: 0px 0px 2px rgba(23, 26, 31, 0.12), 0px 0px 1px rgba(23, 26, 31, 0.07);
+    border-radius: 6px;
+    background-color: #fff;
+    width: 292px;
+    height: 48px;
+    overflow: hidden;
+}
+.dandelion-root {
+    position: absolute;
+    top: 0px;
+    left: 24px;
+    line-height: 28px;
+}
+.frame3 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 149px;
+    height: 28px;
+}
+.checkbox-13 {
+    position: absolute;
+    top: 10px;
+    left: 13px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 149px;
+    height: 28px;
+}
+.dandellion-root {
+    position: absolute;
+    top: 189px;
+    left: 0px;
+    box-shadow: 0px 0px 2px rgba(23, 26, 31, 0.12), 0px 0px 1px rgba(23, 26, 31, 0.07);
+    border-radius: 6px;
+    background-color: #fff;
+    width: 292px;
+    height: 48px;
+    overflow: hidden;
+}
+.frame4 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 86px;
+    height: 28px;
+}
+.checkbox-14 {
+    position: absolute;
+    top: 10px;
+    left: 13px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 86px;
+    height: 28px;
+}
+.chicory {
+    position: absolute;
+    top: 252px;
+    left: 0px;
+    box-shadow: 0px 0px 2px rgba(23, 26, 31, 0.12), 0px 0px 1px rgba(23, 26, 31, 0.07);
+    border-radius: 6px;
+    background-color: #fff;
+    width: 292px;
+    height: 48px;
+    overflow: hidden;
+}
+.bean-substitutes-group {
+    position: absolute;
+    top: 16px;
+    left: 12px;
+    width: 292px;
+    height: 300px;
+}
+.bean-substitutes-frame {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0px 0px 2px rgba(23, 26, 31, 0.12), 0px 0px 1px rgba(23, 26, 31, 0.07);
+    border-radius: 6px;
+    background-color: #fff;
+    width: 316px;
+    height: 331px;
+    overflow: hidden;
+}
+.dropdown-bean-substitutes {
+    width: 100%;
+    position: relative;
+    box-shadow: 0px 3px 6px rgba(18, 15, 40, 0.12);
+    background-color: #fff;
+    height: 331px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 18px;
+    color: #171a1f;
+    font-family: Archivo;
+}
+
+input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
+
+input[type="radio"]:checked + .checkbox-1 .rectangle,
+input[type="radio"]:checked + .checkbox-11 .rectangle,
+input[type="radio"]:checked + .checkbox-12 .rectangle,
+input[type="radio"]:checked + .checkbox-13 .rectangle,
+input[type="radio"]:checked + .checkbox-14 .rectangle {
+    background-color: #62d0fc; /* Change to any color */
+}
+

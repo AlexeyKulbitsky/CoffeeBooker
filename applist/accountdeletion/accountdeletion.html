@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="initial-scale=1, width=device-width">
+  	
+  	<link rel="stylesheet"  href="./index.css" />
+	
+    
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@700&display=swap" />
+</head>
+<body>
+  	
+  	<div class="account-settings-account-del">
+    		<div class="buttons-deletion-confirmation">
+      			<div class="button-yes" id="yesButton">
+        				<div class="yes">Yes</div>
+      			</div>
+      			<div class="button-no">
+        				<div class="no">No</div>
+      			</div>
+    		</div>
+    		<div class="account-deletion-details-frame">
+                <div class="account-deletion-group">
+                      <div class="username-group">
+                            <b class="confirm-password-title">Username</b>
+                            <input type="text" class="textbox-confirm-password" placeholder="Enter Username..." required>
+                      </div>
+                      <div class="password-group">
+                            <b class="confirm-password-title">Password</b>
+                            <input type="password" class="textbox-confirm-password" placeholder="Enter Password..." required>
+                      </div>
+                      <div class="confirm-password-group">
+                            <b class="confirm-password-title">Confirm Password</b>
+                            <input type="password" class="textbox-confirm-password" placeholder="Confirm Password..." required>
+                      </div>
+                </div>
+          </div>
+    		<div class="account-deletion-header-group">
+      			<div class="account-deletion-header-group-child"></div>
+      			<a href="../mapaccountsettings/accountsettings.html"><img class="button-navigate-back" alt="" src="../assets/privacypolicy/Button - Navigate Back.svg"></a>
+      			<b class="account-deletion">Account Deletion</b>
+    		</div>
+  	</div>
+
+    <!-- Modal -->
+	  <div id="deleteModal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <span class="close-btn" id="closeModal">&times;</span>
+            <iframe id="warningFrame" src="../accountdeletionpopup/accountdeletionwarning.html"></iframe>
+        </div>
+    </div>
+
+	<script>
+        document.addEventListener("DOMContentLoaded", function () {
+            
+            var modal = document.getElementById("deleteModal");
+            var yesButton = document.getElementById("yesButton"); 
+            var closeModalBtn = document.getElementById("closeModal");
+
+            
+            if (yesButton) {
+                yesButton.onclick = function() {
+                    modal.style.display = "flex"; 
+                };
+            }
+
+            
+            if (closeModalBtn) {
+                closeModalBtn.onclick = function() {
+                    modal.style.display = "none"; 
+                };
+            }
+
+            
+            window.onclick = function(event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            };
+        });
+    </script>
+</body>
+</html>

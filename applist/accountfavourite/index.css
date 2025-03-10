@@ -1,0 +1,697 @@
+.fav-coffee-cafe {
+    position: absolute;
+    top: 169px;
+    left: 0px;
+    line-height: 20px;
+    display: inline-block;
+    width: 135px;
+}
+.favourite-coffee-section-image {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 9px;
+    width: 135px;
+    height: 135px;
+    object-fit: cover;
+    
+}
+.product-name {
+    position: absolute;
+    top: 141px;
+    left: 0px;
+    font-size: 14px;
+    line-height: 22px;
+    display: inline-block;
+    color: #171a1f;
+    width: 135px;
+}
+.number-of-orders {
+    position: absolute;
+    top: 195px;
+    left: 0px;
+    line-height: 20px;
+    display: inline-block;
+    width: 68px;
+}
+.order-again {
+    position: absolute;
+    top: calc(50% - 10px);
+    left: calc(50% - 34px);
+    line-height: 20px;
+}
+.button-order-again {
+    position: absolute;
+    top: 221px;
+    left: 0px;
+    border-radius: 4px;
+    background-color: #fff;
+    border: 1px solid #636ae8;
+    box-sizing: border-box;
+    width: 135px;
+    height: 32px;
+    overflow: hidden;
+    color: #636ae8;
+}
+.price {
+    position: absolute;
+    top: 195px;
+    left: 68px;
+    line-height: 20px;
+    text-align: right;
+    display: inline-block;
+    width: 67px;
+}
+.fav-coffee-card {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 135px;
+    height: 253px;
+}
+.text {
+    position: absolute;
+    top: calc(50% - 11px);
+    left: calc(50% + 8px);
+    line-height: 22px;
+}
+.heart-icon {
+    position: absolute;
+    top: calc(50% - 8px);
+    left: calc(50% - 8px);
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+}
+.button-favouriteunfavourite {
+    position: absolute;
+    top: 8px;
+    left: 92px;
+    box-shadow: 0px 0px 2px rgba(23, 26, 31, 0.12), 0px 4px 9px rgba(23, 26, 31, 0.14);
+    border-radius: 6px;
+    background-color: #4850e4;
+    border: 1px solid rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+    width: 36px;
+    height: 36px;
+    overflow: hidden;
+    font-size: 14px;
+    color: #fff;
+}
+.fav-coffee-1 {
+    position: absolute;
+    top: 55px;
+    left: 20px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0);
+    width: 135px;
+    height: 253px;
+}
+.fav-coffee-2 {
+    position: absolute;
+    top: 55px;
+    left: 171px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0);
+    width: 135px;
+    height: 253px;
+}
+.fav-coffee-3 {
+    position: absolute;
+    top: 55px;
+    left: 322px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0);
+    width: 135px;
+    height: 253px;
+}
+.fav-coffee-4 {
+    position: absolute;
+    top: 55px;
+    left: 473px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0);
+    width: 135px;
+    height: 253px;
+}
+.fav-coffee-5 {
+    position: absolute;
+    top: 55px;
+    left: 624px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0);
+    width: 135px;
+    height: 253px;
+}
+.favourite-coffees-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 1px solid rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+    width: 36px;
+    height: 36px;
+    overflow: hidden;
+}
+.favourite-coffees-title {
+    position: absolute;
+    top: 4px;
+    left: 36px;
+    font-size: 18px;
+    line-height: 28px;
+    color: #171a1f;
+}
+.favourite-coffees-title-group {
+    position: sticky;
+    top: 10px;
+    left: 21px;
+    width: 193px;
+    height: 36px;
+    font-size: 14px;
+    color: #fff;
+}
+.favourite-coffees-section {
+    position: absolute;
+    top: 541px;
+    left: 0px;
+    box-shadow: 0px 0px 2px rgba(23, 26, 31, 0.12), 0px 4px 9px rgba(23, 26, 31, 0.11);
+    background-color: #fff;
+    width: 375px;
+    height: 328px;
+    color: #9095a0;
+   -webkit-overflow-scrolling: touch;
+    overflow-y: auto;  
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    padding-right: 10px; 
+}
+.favourite-coffees-section::-webkit-scrollbar {
+    display: none;
+}
+.cafe-menu-header-group-child {
+    position: absolute;
+    top: 2px;
+    left: 0px;
+    box-shadow: 0px 0px 2px rgba(23, 26, 31, 0.12), 0px 4px 9px rgba(23, 26, 31, 0.04);
+    border-radius: 0px 0px 9px 9px;
+    background-color: #fff;
+    width: 375px;
+    height: 117px;
+}
+.notch-header-time {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 10px;
+    width: 69px;
+    height: 40px;
+    overflow: hidden;
+}
+.notch-header-receptionwifiba {
+    position: absolute;
+    top: 0px;
+    left: 283px;
+    border-radius: 10px;
+    width: 92px;
+    height: 40px;
+    overflow: hidden;
+}
+.header-timebatteryreception {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 375px;
+    height: 40px;
+}
+.button-navigate-back {
+    position: absolute;
+    top: 64px;
+    left: 18px;
+    width: 34px;
+    height: 34px;
+    overflow: hidden;
+}
+.button-navigate-back:hover{
+    transform:scale(1.1);
+}
+.cafe-menu-header-group {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 375px;
+    height: 119px;
+}
+.favourites {
+    position: absolute;
+    top: 59px;
+    left: 58px;
+    line-height: 30px;
+    display: inline-block;
+    width: 273px;
+}
+.cafe-menu-header {
+    position: fixed;
+    top: -3px;
+    left: 0px;
+    width: 375px;
+    height: 119px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Archivo;
+    z-index: 1000;
+}
+.map-icon-default {
+    position: absolute;
+    top: calc(50% - 26px);
+    left: calc(50% - 16.02px);
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+}
+.map {
+    position: absolute;
+    top: calc(50% + 6px);
+    left: calc(50% - 12.52px);
+    line-height: 20px;
+}
+.map-button {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 93.8px;
+    height: 64px;
+    overflow: hidden;
+}
+.account {
+    position: absolute;
+    top: calc(50% + 6px);
+    left: calc(50% - 25.03px);
+    line-height: 20px;
+}
+.account-button {
+    position: absolute;
+    top: 0px;
+    left: 280.25px;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 93.8px;
+    height: 64px;
+    overflow: hidden;
+    color: #636ae8;
+}
+.cart-icon-default {
+    position: absolute;
+    top: calc(50% - 26px);
+    left: calc(50% - 15.63px);
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+}
+.coffee-cart {
+    position: absolute;
+    top: calc(50% + 6px);
+    left: calc(50% - 32.63px);
+    line-height: 20px;
+}
+.cart-button {
+    position: absolute;
+    top: 3px;
+    left: 188px;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 93px;
+    height: 58px;
+    overflow: hidden;
+}
+.discover-button {
+    position: absolute;
+    top: 0px;
+    left: 93.75px;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 93.8px;
+    height: 64px;
+    overflow: hidden;
+}
+.map-view-footer-buttons-group {
+    position: absolute;
+    top: 6px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 375px;
+    height: 64px;
+}
+.account-view-footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    box-shadow: 0px 0px 2px rgba(23, 26, 31, 0.12), 0px 4px 9px rgba(23, 26, 31, 0.11);
+    background-color: #fff;
+    width: 375px;
+    height: 76px;
+    z-index: 1000;
+}
+.button-order-again5 {
+    position: absolute;
+    top: 284px;
+    left: 7px;
+    border-radius: 4px;
+    background-color: #fff;
+    border: 1px solid #636ae8;
+    box-sizing: border-box;
+    width: 135px;
+    height: 32px;
+    overflow: hidden;
+    font-size: 12px;
+    color: #636ae8;
+}
+.cafe-address {
+    position: absolute;
+    top: 190px;
+    left: 7px;
+    font-size: 11px;
+    line-height: 18px;
+    display: inline-block;
+    width: 135px;
+}
+.fav-cafe-icon {
+    position: absolute;
+    top: 0px;
+    left: 7px;
+    border-radius: 9px;
+    width: 135px;
+    height: 156px;
+    object-fit: cover;
+}
+.cafe-title {
+    position: absolute;
+    top: 162px;
+    left: 7px;
+    font-size: 14px;
+    line-height: 22px;
+    display: inline-block;
+    width: 135px;
+}
+.rating-icons-group {
+    position: absolute;
+    top: 256px;
+    left: 7px;
+    width: 80px;
+    height: 16px;
+}
+.wallk-time-from-gps-group {
+    position: absolute;
+    top: 0px;
+    left: -25px;
+    width: 70px;
+    height: 16px;
+}
+.min {
+    position: absolute;
+    top: 0px;
+    left: 12px;
+    line-height: 16px;
+    display: inline-block;
+    width: 60px;
+}
+.walk-time-from-gps-location {
+    position: absolute;
+    top: 233px;
+    left: 74px;
+    width: 72px;
+    height: 16px;
+    text-align: center;
+}
+.distance-from-gps-location {
+    position: absolute;
+    top: 233px;
+    left: 0px;
+    width: 72px;
+    height: 16px;
+    text-align: center;
+}
+.fav-cafe-card {
+    position: absolute;
+    top: 0px;
+    left: -7px;
+    width: 146px;
+    height: 316px;
+}
+.button-favouriteunfavourite5 {
+    position: absolute;
+    top: 8px;
+    left: 88px;
+    box-shadow: 0px 0px 2px rgba(23, 26, 31, 0.12), 0px 4px 9px rgba(23, 26, 31, 0.14);
+    border-radius: 6px;
+    background-color: #4850e4;
+    border: 1px solid rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+    width: 36px;
+    height: 36px;
+    overflow: hidden;
+    font-size: 14px;
+    color: #fff;
+}
+.fav-cafe-1 {
+    position: absolute;
+    top: 55px;
+    left: 20px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0);
+    width: 135px;
+    height: 316px;
+}
+.fav-cafe-2 {
+    position: absolute;
+    top: 55px;
+    left: 166px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0);
+    width: 135px;
+    height: 316px;
+}
+.fav-cafe-3 {
+    position: absolute;
+    top: 55px;
+    left: 312px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0);
+    width: 135px;
+    height: 316px;
+}
+.fav-cafe-4 {
+    position: absolute;
+    top: 55px;
+    left: 458px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0);
+    width: 135px;
+    height: 316px;
+}
+.fav-cafe-5 {
+    position: absolute;
+    top: 55px;
+    left: 604px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0);
+    width: 135px;
+    height: 316px;
+}
+.favourite-cafe-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 6px;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+    width: 36px;
+    height: 36px;
+    overflow: hidden;
+    
+}
+.favourite-cafes-title-group {
+    position: sticky;
+    top: 10px;
+    left: 20px;
+    width: 175px;
+    height: 36px;
+    font-size: 14px;
+    color: #fff;
+}
+.favourite-cafes-section {
+    position: absolute;
+    top: 869px;
+    left: 0px;
+    box-shadow: 0px 0px 2px rgba(23, 26, 31, 0.12), 0px 4px 9px rgba(23, 26, 31, 0.11);
+    background-color: #fff;
+    width: 375px;
+    height: 391px;
+    font-size: 10px;
+    -webkit-overflow-scrolling: touch;
+    overflow-y: auto;  
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    padding-right: 10px; 
+}
+.favourite-cafes-section::-webkit-scrollbar {
+    display: none;
+}
+.super-duper-frappe {
+    margin-bottom: 0px;
+}
+.classic-espresso-x1-super-dupe {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    padding-left: 15px;
+}
+.another-drink {
+    margin: 0;
+}
+.order-list-of-container {
+    position: absolute;
+    top: 217px;
+    left: 0px;
+    font-size: 11px;
+    line-height: 18px;
+    display: inline-block;
+    width: 146px;
+}
+.order-again-cafe-image {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 9px;
+    width: 146px;
+    height: 156px;
+    object-fit: cover;
+}
+.cafe-name-title {
+    position: absolute;
+    top: 162px;
+    left: 0px;
+    line-height: 22px;
+    display: inline-block;
+    width: 135px;
+}
+.price5 {
+    position: absolute;
+    top: 190px;
+    left: 0px;
+    line-height: 22px;
+    display: inline-block;
+    width: 90px;
+}
+.button-order-again10 {
+    position: absolute;
+    top: 300px;
+    left: 0px;
+    border-radius: 4px;
+    background-color: #fff;
+    border: 1px solid #636ae8;
+    box-sizing: border-box;
+    width: 146px;
+    height: 32px;
+    overflow: hidden;
+    font-size: 12px;
+    color: #636ae8;
+}
+.order-again-group {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 146px;
+    height: 332px;
+}
+.order-again-1 {
+    position: absolute;
+    top: 62px;
+    left: 20px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0);
+    width: 146px;
+    height: 332px;
+}
+.order-again-2 {
+    position: absolute;
+    top: 62px;
+    left: 182px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0);
+    width: 146px;
+    height: 332px;
+}
+.order-again-title-group {
+    position: sticky;
+    top: 17px;
+    left: 20px;
+    width: 142px;
+    height: 36px;
+    color: #fff;
+}
+.order-again-3 {
+    position: absolute;
+    top: 62px;
+    left: 506px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0);
+    width: 146px;
+    height: 332px;
+}
+.order-again-4 {
+    position: absolute;
+    top: 62px;
+    left: 668px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0);
+    width: 146px;
+    height: 332px;
+}
+.order-again-5 {
+    position: absolute;
+    top: 62px;
+    left: 344px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0);
+    width: 146px;
+    height: 332px;
+}
+.order-again-section {
+    position: absolute;
+    top: 121px;
+    left: 0px;
+    box-shadow: 0px 0px 2px rgba(23, 26, 31, 0.12), 0px 4px 9px rgba(23, 26, 31, 0.11);
+    background-color: #fff;
+    width: 375px;
+    height: 420px;
+    font-size: 14px;
+    -webkit-overflow-scrolling: touch;
+    overflow-y: auto;  
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    padding-right: 10px; 
+}
+.order-again-section::-webkit-scrollbar {
+    display: none;
+}
+.av-favourites-screen {
+    width: 100%;
+    position: relative;
+    box-shadow: 0px 3px 6px rgba(18, 15, 40, 0.12);
+    background-color: #fff;
+    height: 1336px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 12px;
+    color: #171a1f;
+    font-family: Inter;
+}
+
