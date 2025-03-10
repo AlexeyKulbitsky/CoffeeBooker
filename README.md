@@ -6,7 +6,7 @@ It also allows you to browse cafes based on your liking by giving you a selectio
 you can apply to refine your search for a cafe.
 
 The app uses HTML, CSS and Javascript for its front end. This will later be adapted to work
-on React framework for iOS and Android alike. The login and registration page have user authentication built into them. This uses flask to achieve this functionality. Its a framework
+on React framework for iOS and Android alike. The login and registration page have user authentication built into them. This uses Flask to achieve this functionality. Its a framework
 where we used python to implement it. Javascript is used to populate databases for the product
 These databases are dummy databases as in they don't hold any meaningful data, they hold
 placeholder values for the application to use. Functionality regarding the use of these is
@@ -31,11 +31,18 @@ login, registration or start and then from your choice and open it in any browse
 4. Install the Live Server extension.
 5. Right-click any html page, right click, select Open with Live Server
 
-For Authentication
+For Authentication (frontend + backend + databases)
+Prerequisities:
+   - pip install Flask
+   - pip install Flask-SQLAlchemy
+   - pip install Flask-JWT-Extended bcrypt
+   - pip install flask-cors
 1. git clone https://github.com/AlexeyKulbitsky/CoffeeBooker
-2. Open the login or registration html pages.
-3. Register yourself
-4. Open the login page, enter your details to login
+2. Go to coffee_booker_backend folder and run python app.py
+3. Open the login or registration html pages.
+4. Register yourself
+5. Open the login page, enter your details to login
+   
 
 Navigation through the application should be straight forward and intuitive. Should be easily
 navigable.
